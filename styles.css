@@ -129,39 +129,39 @@ footer {
 
 /* Style pour chaque item de la galerie */
 .gallery-item {
-    overflow: hidden;
-    border-radius: 5px;
-    background-color: #EAF8FD; /* Nuance très claire en harmonie */
+    display: inline-block;
     border: 1px solid #007CBD;
-    transition: transform 0.3s;
+    padding: 5px;
+    margin: 10px;
+    background-color: #EAF8FD;
+    border-radius: 5px;
+    text-align: center; /* Centrer le contenu, y compris la description */
 }
 
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-/* Effet de zoom sur les images au survol */
-.gallery-item:hover img {
-    transform: scale(1.05);
-}
-
-/* Styles pour le conteneur de l'image miniature */
 .thumbnail-container {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    overflow: hidden;
-    display: flex;                /* Utiliser Flexbox */
-    justify-content: center;      /* Centrer horizontalement */
-    align-items: center;          /* Centrer verticalement */
-    background-color: #EAF8FD;    /* Optionnel : couleur de fond */
-    border-radius: 5px;           /* Optionnel : coins arrondis */
+    width: 100%;                      /* Le conteneur occupe toute la largeur disponible */
+    aspect-ratio: 4 / 3;              /* Définir un ratio pour le conteneur */
+    overflow: hidden;                 /* Cacher les parties de l'image qui débordent */
+    display: flex;                    /* Flexbox pour centrer le contenu */
+    justify-content: center;          /* Centrer horizontalement */
+    align-items: center;              /* Centrer verticalement */
+    background-color: #EAF8FD;        /* Optionnel : couleur de fond */
+    border-radius: 5px;               /* Arrondir les coins */
 }
 
 .thumbnail-container img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;            /* Recadrer l’image pour remplir le conteneur */
+    width: 100%;                      /* L'image occupe toute la largeur du conteneur */
+    height: 100%;                     /* L'image occupe toute la hauteur du conteneur */
+    object-fit: cover;                /* Recadrer l'image pour qu'elle remplisse le conteneur */
+    object-position: center;          /* Centrer l'image à l'intérieur du conteneur */
+}
+
+.image-description {
+    display: inline-block;      /* Permet de traiter le paragraphe comme un élément en ligne */
+    margin-top: 5px;            /* Réduit l'espace entre l'image et la description */
+    margin-bottom: 0;           /* Supprime l'espace après la description */
+    padding: 0;                 /* Enlève tout padding supplémentaire */
+    font-size: 14px;            /* Taille de la police */
+    color: #007CBD;             /* Couleur du texte */
+    font-weight: bold;          /* Mettre en valeur la description */
 }
