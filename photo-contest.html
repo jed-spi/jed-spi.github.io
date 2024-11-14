@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concours photos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="./index.html" class="header-link">
+        <header>
+            <h1>Journée de l'école doctorale SPI 2025</h1>
+        </header>
+    </a>
+
+    <main>
+        <section class="gallery">
+            <h2>Gallerie du concours photos</h2>
+
+            <div class="gallery-grid">
+                <!-- Exemple de photos -->
+                <!-- https://drive.google.com/file/d/10hzLeDHZZXqAtN4E0Zt-IZ3nMV2cDtAB/view?usp=drive_link -->
+                <div class="gallery-item">
+                    <a href="https://drive.google.com/uc?export=view&id=10hzLeDHZZXqAtN4E0Zt-IZ3nMV2cDtAB" target="_blank">
+                        <div class="thumbnail-container">
+                            <img src="https://drive.google.com/thumbnail?id=10hzLeDHZZXqAtN4E0Zt-IZ3nMV2cDtAB" alt="Kitty 1">
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://drive.google.com/uc?export=view&id=1ElNSdEuQckEfsKR23Jo38b0cGWXCLFK6" target="_blank">
+                        <div class="thumbnail-container">
+                            <img src="https://drive.google.com/thumbnail?id=1ElNSdEuQckEfsKR23Jo38b0cGWXCLFK6" alt="Kitty 2">
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <div class="thumbnail-container">
+                        <a href="https://drive.google.com/uc?export=view&id=1fBULs8HS01-fuhQmir-_DwXqTXmeptbm" target="_blank">
+                            <img src="https://drive.google.com/thumbnail?id=1fBULs8HS01-fuhQmir-_DwXqTXmeptbm" alt="Kitty 3">
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="thumbnail-container">
+                        <a href="https://drive.google.com/uc?export=view&id=1QxGQh6L4CqMoepJiUJz5YAal73o9ys81" target="_blank">
+                            <img src="https://drive.google.com/thumbnail?id=1QxGQh6L4CqMoepJiUJz5YAal73o9ys81" alt="Kitty 4">
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="thumbnail-container">
+                        <a href="https://drive.google.com/uc?export=view&id=1VM3Wb409yEpmWCgZlLY6rYQa_ZTE45s8" target="_blank">
+                            <img src="https://drive.google.com/thumbnail?id=1VM3Wb409yEpmWCgZlLY6rYQa_ZTE45s8" alt="Kitty 5">
+                        </a>
+                    <div>
+                </div>
+                <!-- Ajoutez d'autres images selon besoin -->
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2024 Ecole Doctorale SPI - Univ. Bordeaux. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Photo - Conférence Scientifique</title>
+    <style>
+        /* Styles pour la galerie et les miniatures */
+        .gallery-item {
+            display: inline-block;
+            border: 1px solid #007CBD;
+            padding: 5px;
+            margin: 10px;
+            background-color: #EAF8FD;
+            border-radius: 5px;
+        }
+        .thumbnail-container {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #EAF8FD;
+            border-radius: 5px;
+        }
+        .thumbnail-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="gallery"></div>
+
+    <script>
+        // Fonction pour générer l'HTML des images à partir d'une liste d'IDs
+        function generateGallery(ids) {
+            const gallery = document.getElementById('gallery');
+            ids.forEach(id => {
+                // Création des éléments HTML pour chaque image
+                const galleryItem = document.createElement('div');
+                galleryItem.className = 'gallery-item';
+
+                const link = document.createElement('a');
+                link.href = `https://drive.google.com/uc?export=view&id=${id}`;
+                link.target = '_blank';
+
+                const thumbnailContainer = document.createElement('div');
+                thumbnailContainer.className = 'thumbnail-container';
+
+                const img = document.createElement('img');
+                img.src = `https://drive.google.com/thumbnail?id=${id}`;
+                img.alt = `Photo avec ID ${id}`;
+
+                // Construction des éléments
+                thumbnailContainer.appendChild(img);
+                link.appendChild(thumbnailContainer);
+                galleryItem.appendChild(link);
+                gallery.appendChild(galleryItem);
+            });
+        }
+
+        // Chargement du fichier des IDs
+        fetch('ids.txt')
+            .then(response => response.text())
+            .then(text => {
+                // Récupération des IDs ligne par ligne
+                const ids = text.trim().split('\n');
+                generateGallery(ids); // Génération de la galerie
+            })
+            .catch(error => console.error('Erreur de chargement du fichier:', error));
+    </script>
+</body>
+</html>

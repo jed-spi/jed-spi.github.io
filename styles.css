@@ -102,3 +102,66 @@ footer {
     padding: 1em;
     font-size: 0.9em;
 }
+
+/* Style pour la section de la galerie */
+.gallery {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #007CBD;
+}
+
+.gallery p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grille de la galerie photo */
+.gallery-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 0 20px;
+}
+
+/* Style pour chaque item de la galerie */
+.gallery-item {
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #EAF8FD; /* Nuance très claire en harmonie */
+    border: 1px solid #007CBD;
+    transition: transform 0.3s;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Effet de zoom sur les images au survol */
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Styles pour le conteneur de l'image miniature */
+.thumbnail-container {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    display: flex;                /* Utiliser Flexbox */
+    justify-content: center;      /* Centrer horizontalement */
+    align-items: center;          /* Centrer verticalement */
+    background-color: #EAF8FD;    /* Optionnel : couleur de fond */
+    border-radius: 5px;           /* Optionnel : coins arrondis */
+}
+
+.thumbnail-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;            /* Recadrer l’image pour remplir le conteneur */
+}
