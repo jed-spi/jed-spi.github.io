@@ -13,11 +13,18 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #007CBD;
     color: #fff;
     padding: 1em;
     text-align: center;
 }
+
+.header-link {
+    text-decoration: none; /* Retire le soulignement du lien */
+    color: inherit;        /* Utilise la couleur de texte du header */
+    display: block;        /* Permet au lien d’occuper tout le bloc du header */
+}
+
 
 header h1 {
     font-size: 2em;
@@ -26,6 +33,11 @@ header h1 {
 
 header p {
     font-size: 1.2em;
+}
+
+header a {
+    color: inherit;      /* Prend la couleur parente */
+    text-decoration: none;
 }
 
 main {
@@ -42,7 +54,7 @@ section {
 #infos-pratiques h2,
 #rubriques h2 {
     font-size: 1.5em;
-    color: #4CAF50;
+    color: #007CBD;
     margin-bottom: 0.5em;
 }
 
@@ -55,7 +67,7 @@ section {
     background-color: #e9f5e9;
     padding: 1em;
     margin: 0.5em 0;
-    border-left: 5px solid #4CAF50;
+    border-left: 5px solid #007CBD;
 }
 
 #infos-pratiques p {
