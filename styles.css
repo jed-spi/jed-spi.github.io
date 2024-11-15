@@ -50,12 +50,16 @@ section {
     margin-bottom: 2em;
 }
 
-#programme h2,
-#infos-pratiques h2,
-#rubriques h2 {
+h2 {
     font-size: 1.5em;
     color: #007CBD;
     margin-bottom: 0.5em;
+}
+
+#about {
+    text-align: justify;        /* Justifie le texte */
+    margin: 0 auto;            /* Centre le bloc par rapport à son parent */
+    line-height: 1.5;          /* Ajuste l'espacement des lignes pour plus de lisibilité */
 }
 
 #programme ul,
