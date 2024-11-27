@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    line-height: 1.6; /* Ajout pour améliorer la lisibilité globale */
 }
 
 header {
@@ -10,14 +11,20 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    position: sticky; /* Ajout pour que le header reste visible */
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajout pour un effet de relief */
 }
 
 h1 {
     margin: 0;
+    font-size: 2rem; /* Ajustement pour une taille plus visible */
 }
 
 a.header-link {
     text-decoration: none;
+    color: inherit; /* Ajout pour hériter de la couleur du texte du header */
 }
 
 main {
@@ -43,11 +50,16 @@ main {
     overflow: hidden;
     width: 200px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s; /* Ajout pour une transition plus fluide */
 }
 
 .gallery-item:hover {
     transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ajout pour un effet visuel au hover */
+}
+
+.thumbnail-container {
+    position: relative; /* Ajout pour permettre des éléments positionnés */
 }
 
 .thumbnail-container img {
@@ -61,6 +73,8 @@ main {
     font-size: 0.9rem;
     color: #333;
     text-align: center;
+    background-color: #f9f9f9; /* Ajout d’un fond léger pour les descriptions */
+    border-top: 1px solid #ddd; /* Séparation visuelle entre l’image et la description */
 }
 
 footer {
@@ -69,4 +83,5 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    font-size: 0.8rem; /* Réduction de la taille de la police */
 }
