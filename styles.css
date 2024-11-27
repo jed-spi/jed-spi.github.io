@@ -1,10 +1,11 @@
-/* styles.css */
+/* Reset de base */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styles globaux */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -12,34 +13,34 @@ body {
     background-color: #f4f4f9;
 }
 
+/* Header */
 header {
     background-color: #007CBD;
-    color: #fff;
-    padding: 1em;
+    color: white;
+    padding: 20px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-.header-link {
-    text-decoration: none; /* Retire le soulignement du lien */
-    color: inherit;        /* Utilise la couleur de texte du header */
-    display: block;        /* Permet au lien d’occuper tout le bloc du header */
-}
-
 
 header h1 {
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 0.5em;
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
-header a {
-    color: inherit;      /* Prend la couleur parente */
+.header-link {
     text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
+/* Contenu principal */
 main {
     max-width: 800px;
     margin: 2em auto;
@@ -50,10 +51,8 @@ section {
     margin-bottom: 2em;
 }
 
-#programme h2,
-#infos-pratiques h2,
-#rubriques h2 {
-    font-size: 1.5em;
+section h2 {
+    font-size: 1.5rem;
     color: #007CBD;
     margin-bottom: 0.5em;
 }
@@ -74,6 +73,7 @@ section {
     margin: 0.5em 0;
 }
 
+/* Navigation - Rubriques */
 nav#rubriques ul {
     display: flex;
     flex-wrap: wrap;
@@ -95,15 +95,7 @@ nav#rubriques ul li a {
     font-weight: bold;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-    font-size: 0.9em;
-}
-
-/* Style pour la section de la galerie */
+/* Galerie */
 .gallery {
     max-width: 1200px;
     margin: 20px auto;
@@ -112,6 +104,7 @@ footer {
 
 .gallery h2 {
     color: #007CBD;
+    margin-bottom: 10px;
 }
 
 .gallery p {
@@ -119,55 +112,7 @@ footer {
     margin-bottom: 20px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    line-height: 1.6; /* Ajout pour améliorer la lisibilité globale */
-}
-
-header {
-    background-color: #007CBD;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: sticky; /* Ajout pour que le header reste visible */
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajout pour un effet de relief */
-}
-
-h1 {
-    margin: 0;
-    font-size: 2rem; /* Ajustement pour une taille plus visible */
-}
-
-a.header-link {
-    text-decoration: none;
-    color: inherit; /* Ajout pour hériter de la couleur du texte du header */
-}
-
-main {
-    padding: 20px;
-}
-/* Style pour la section de la galerie */
-.gallery {
-    max-width: 1200px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.gallery h2 {
-    color: #007CBD;
-}
-
-.gallery p {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-/* Grille de la galerie photo */
+/* Grille de la galerie */
 .gallery-grid {
     display: grid;
     gap: 10px;
@@ -175,50 +120,53 @@ main {
     padding: 0 20px;
 }
 
-/* Style pour chaque item de la galerie */
 .gallery-item {
-    display: inline-block;
     border: 1px solid #007CBD;
     padding: 5px;
-    margin: 10px;
     background-color: #EAF8FD;
     border-radius: 5px;
-    text-align: center; /* Centrer le contenu, y compris la description */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Conteneur des miniatures */
 .thumbnail-container {
-    width: 100%;                      /* Le conteneur occupe toute la largeur disponible */
-    aspect-ratio: 4 / 3;              /* Définir un ratio pour le conteneur */
-    overflow: hidden;                 /* Cacher les parties de l'image qui débordent */
-    display: flex;                    /* Flexbox pour centrer le contenu */
-    justify-content: center;          /* Centrer horizontalement */
-    align-items: center;              /* Centrer verticalement */
-    background-color: #EAF8FD;        /* Optionnel : couleur de fond */
-    border-radius: 5px;               /* Arrondir les coins */
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAF8FD;
+    border-radius: 5px;
 }
 
 .thumbnail-container img {
-    width: 100%;                      /* L'image occupe toute la largeur du conteneur */
-    height: 100%;                     /* L'image occupe toute la hauteur du conteneur */
-    object-fit: cover;                /* Recadrer l'image pour qu'elle remplisse le conteneur */
-    object-position: center;          /* Centrer l'image à l'intérieur du conteneur */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
+/* Description des images */
 .image-description {
-    display: inline-block;      /* Permet de traiter le paragraphe comme un élément en ligne */
-    margin-top: 5px;            /* Réduit l'espace entre l'image et la description */
-    margin-bottom: 0;           /* Supprime l'espace après la description */
-    padding: 0;                 /* Enlève tout padding supplémentaire */
-    font-size: 14px;            /* Taille de la police */
-    color: #007CBD;             /* Couleur du texte */
-    font-weight: bold;          /* Mettre en valeur la description */
+    margin-top: 5px;
+    font-size: 14px;
+    color: #007CBD;
+    font-weight: bold;
 }
 
+/* Footer */
 footer {
     background-color: #007CBD;
     color: white;
     text-align: center;
     padding: 10px 0;
+    font-size: 0.8rem;
     margin-top: 20px;
-    font-size: 0.8rem; /* Réduction de la taille de la police */
 }
