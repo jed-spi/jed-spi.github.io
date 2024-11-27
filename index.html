@@ -40,23 +40,7 @@
 
     <div id="footer"></div>
 
-    <script>
-    // Charger le haut de page
-      fetch('includes/header.html')
-        .then(response => response.text())  // Résoudre la promesse en texte
-        .then(data => {
-          document.getElementById('header').innerHTML = data;
-        })
-        .catch(error => console.error('Erreur lors du chargement du header:', error));
-
-      // Charger le bas de page
-      fetch('includes/footer.html')
-        .then(response => response.text())  // Résoudre la promesse en texte
-        .then(data => {
-          document.getElementById('footer').innerHTML = data;
-        })
-        .catch(error => console.error('Erreur lors du chargement du footer:', error));
-    </script>
+    <script src="script/load_header-footer.js"></script>
     <script>
         // Charger le fichier JSON et générer le contenu du programme
         fetch('data/schedule.json')
