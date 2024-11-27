@@ -151,51 +151,67 @@ a.header-link {
 main {
     padding: 20px;
 }
-
+/* Style pour la section de la galerie */
 .gallery {
+    max-width: 1200px;
+    margin: 20px auto;
     text-align: center;
 }
 
+.gallery h2 {
+    color: #007CBD;
+}
+
+.gallery p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grille de la galerie photo */
 .gallery-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 0 20px;
 }
 
+/* Style pour chaque item de la galerie */
 .gallery-item {
-    background: #fff;
-    border: 1px solid #ddd;
+    display: inline-block;
+    border: 1px solid #007CBD;
+    padding: 5px;
+    margin: 10px;
+    background-color: #EAF8FD;
     border-radius: 5px;
-    overflow: hidden;
-    width: 200px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s; /* Ajout pour une transition plus fluide */
-}
-
-.gallery-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ajout pour un effet visuel au hover */
+    text-align: center; /* Centrer le contenu, y compris la description */
 }
 
 .thumbnail-container {
-    position: relative; /* Ajout pour permettre des éléments positionnés */
+    width: 100%;                      /* Le conteneur occupe toute la largeur disponible */
+    aspect-ratio: 4 / 3;              /* Définir un ratio pour le conteneur */
+    overflow: hidden;                 /* Cacher les parties de l'image qui débordent */
+    display: flex;                    /* Flexbox pour centrer le contenu */
+    justify-content: center;          /* Centrer horizontalement */
+    align-items: center;              /* Centrer verticalement */
+    background-color: #EAF8FD;        /* Optionnel : couleur de fond */
+    border-radius: 5px;               /* Arrondir les coins */
 }
 
 .thumbnail-container img {
-    width: 100%;
-    height: auto;
-    display: block;
+    width: 100%;                      /* L'image occupe toute la largeur du conteneur */
+    height: 100%;                     /* L'image occupe toute la hauteur du conteneur */
+    object-fit: cover;                /* Recadrer l'image pour qu'elle remplisse le conteneur */
+    object-position: center;          /* Centrer l'image à l'intérieur du conteneur */
 }
 
 .image-description {
-    padding: 10px;
-    font-size: 0.9rem;
-    color: #333;
-    text-align: center;
-    background-color: #f9f9f9; /* Ajout d’un fond léger pour les descriptions */
-    border-top: 1px solid #ddd; /* Séparation visuelle entre l’image et la description */
+    display: inline-block;      /* Permet de traiter le paragraphe comme un élément en ligne */
+    margin-top: 5px;            /* Réduit l'espace entre l'image et la description */
+    margin-bottom: 0;           /* Supprime l'espace après la description */
+    padding: 0;                 /* Enlève tout padding supplémentaire */
+    font-size: 14px;            /* Taille de la police */
+    color: #007CBD;             /* Couleur du texte */
+    font-weight: bold;          /* Mettre en valeur la description */
 }
 
 footer {
