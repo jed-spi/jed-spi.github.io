@@ -41,7 +41,7 @@
     <div id="footer"></div>
 
     <script>
-    // Charger le haut et le bas de page
+    // Charger le haut de page
       fetch('includes/header.html')
         .then(response => response.text())  // Résoudre la promesse en texte
         .then(data => {
@@ -49,8 +49,8 @@
         })
         .catch(error => console.error('Erreur lors du chargement du header:', error));
 
-      // Charger le footer
-      fetch('footer.html')
+      // Charger le bas de page
+      fetch('includes/footer.html')
         .then(response => response.text())  // Résoudre la promesse en texte
         .then(data => {
           document.getElementById('footer').innerHTML = data;
