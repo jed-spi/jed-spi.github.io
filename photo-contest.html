@@ -15,70 +15,47 @@
 
     <main>
         <section class="gallery">
-            <h2>Gallerie du concours photos</h2>
+            <h2>Galerie du concours photos</h2>
             <h3 style="color: red;">Les 5 chats affichés ne font pas partis du concours.</h3>
             <br>
-            <div class="gallery-grid">
-                <!-- Exemple de photos -->
-                <!-- https://drive.google.com/file/d/10hzLeDHZZXqAtN4E0Zt-IZ3nMV2cDtAB/view?usp=drive_link -->
-                <div class="gallery-item">
-                    <a href="https://drive.google.com/uc?export=view&id=10hzLeDHZZXqAtN4E0Zt-IZ3nMV2cDtAB" target="_blank">
-                        <div class="thumbnail-container">
-                            <img src="https://drive.google.com/thumbnail?id=10hzLeDHZZXqAtN4E0Zt-IZ3nMV2cDtAB" alt="Kitty 1">
-                        </div>
-                    </a>
-                    <p class="image-description">Kitty 1 - Channihilateur selon une IA générative</p> <!-- Description sous l'image -->
-                </div>
-
-                <div class="gallery-item">
-                    <a href="https://drive.google.com/uc?export=view&id=1ElNSdEuQckEfsKR23Jo38b0cGWXCLFK6" target="_blank">
-                        <div class="thumbnail-container">
-                            <img src="https://drive.google.com/thumbnail?id=1ElNSdEuQckEfsKR23Jo38b0cGWXCLFK6" alt="Kitty 2">
-                        </div>
-                    </a>
-                    <p class="image-description">Kitty 2 - Chactambule selon une IA générative</p> <!-- Description sous l'image -->
-                </div>
-                <div class="gallery-item">
-                    <div class="thumbnail-container">
-                        <a href="https://drive.google.com/uc?export=view&id=1fBULs8HS01-fuhQmir-_DwXqTXmeptbm" target="_blank">
-                            <img src="https://drive.google.com/thumbnail?id=1fBULs8HS01-fuhQmir-_DwXqTXmeptbm" alt="Kitty 3">
-                        </a>
-                    </div>
-                    <p class="image-description">Kitty 3 - Chapeur pompier selon une IA générative</p> <!-- Description sous l'image -->
-                </div>
-                <div class="gallery-item">
-                    <div class="thumbnail-container">
-                        <a href="https://drive.google.com/uc?export=view&id=1QxGQh6L4CqMoepJiUJz5YAal73o9ys81" target="_blank">
-                            <img src="https://drive.google.com/thumbnail?id=1QxGQh6L4CqMoepJiUJz5YAal73o9ys81" alt="Kitty 4">
-                        </a>
-                    </div>
-                    <p class="image-description">Kitty 4 - Channiversaire selon une IA générative</p> <!-- Description sous l'image -->
-                </div>
-                <div class="gallery-item">
-                    <div class="thumbnail-container">
-                        <a href="https://drive.google.com/uc?export=view&id=1VM3Wb409yEpmWCgZlLY6rYQa_ZTE45s8" target="_blank">
-                            <img src="https://drive.google.com/thumbnail?id=1VM3Wb409yEpmWCgZlLY6rYQa_ZTE45s8" alt="Kitty 5">
-                        </a>
-                    </div>
-                    <p class="image-description">Kitty 5 - Charc-en-ciel selon une IA générative</p> <!-- Description sous l'image -->
-                </div>
-                <!-- Ajoutez d'autres images selon besoin -->
-            </div>
+            <div class="gallery-grid" id="gallery"></div>
         </section>
 
         <nav id="rubriques">
             <h2>Navigation</h2>
             <ul>
                 <li><a href="./index.html">Programme de la journée</a></li>
-                <li><a href="./about.html">A propos de cette journée</a></li>
+                <li><a href="./about.html">À propos de cette journée</a></li>
             </ul>
         </nav>
     </main>
 
-
-
     <footer>
         <p>&copy; 2024 Ecole Doctorale SPI - Univ. Bordeaux. Tous droits réservés.</p>
     </footer>
+
+    <script>
+        // Charger et afficher les données JSON
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const gallery = document.getElementById('gallery');
+                data.forEach(item => {
+                    const galleryItem = document.createElement('div');
+                    galleryItem.className = 'gallery-item';
+
+                    galleryItem.innerHTML = `
+                        <a href="https://drive.google.com/uc?export=view&id=${item.image_id}" target="_blank">
+                            <div class="thumbnail-container">
+                                <img src="https://drive.google.com/thumbnail?id=${item.image_id}" alt="${item.title}">
+                            </div>
+                        </a>
+                        <p class="image-description">${item.title} - ${item.description}</p>
+                    `;
+                    gallery.appendChild(galleryItem);
+                });
+            })
+            .catch(error => console.error('Erreur lors du chargement des données :', error));
+    </script>
 </body>
 </html>

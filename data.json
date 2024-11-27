@@ -1,20 +1,27 @@
 [
     {
-        "author": "Alice",
-        "title": "Sunset at the Beach",
-        "description": "A beautiful sunset over the ocean.",
-        "image_url": "https://example.com/sunset.jpg"
+        "title": "Kitty 1",
+        "description": "Channihilateur selon une IA générative",
+        "image_id": "10hzLeDHZZXqAtN4E0Zt-IZ3nMV2cDtAB"
     },
     {
-        "author": "Bob",
-        "title": "Mountain Range",
-        "description": "Snowy peaks touching the sky.",
-        "image_url": "https://example.com/mountains.jpg"
+        "title": "Kitty 2",
+        "description": "Chactambule selon une IA générative",
+        "image_id": "1ElNSdEuQckEfsKR23Jo38b0cGWXCLFK6"
     },
     {
-        "author": "Charlie",
-        "title": "City Lights",
-        "description": "A bustling city illuminated at night.",
-        "image_url": "https://example.com/city.jpg"
+        "title": "Kitty 3",
+        "description": "Chapeur pompier selon une IA générative",
+        "image_id": "1fBULs8HS01-fuhQmir-_DwXqTXmeptbm"
+    },
+    {
+        "title": "Kitty 4",
+        "description": "Channiversaire selon une IA générative",
+        "image_id": "1QxGQh6L4CqMoepJiUJz5YAal73o9ys81"
+    },
+    {
+        "title": "Kitty 5",
+        "description": "Charc-en-ciel selon une IA générative",
+        "image_id": "1VM3Wb409yEpmWCgZlLY6rYQa_ZTE45s8"
     }
 ]
