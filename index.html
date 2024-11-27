@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Journée de l'école doctorale SPI 2025</h1>
-    </header>
+    <div id="header"></div>
 
     <main>
         <!-- Section des infos pratiques -->
@@ -40,10 +38,13 @@
         </nav>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Ecole Doctorale SPI - Univ. Bordeaux. Tous droits réservés.</p>
-    </footer>
+    <div id="footer"></div>
 
+    <script>
+        // Charger le haut et le bas de page
+        document.getElementById('header').innerHTML = fetch('includes/header.html').then(res => res.text());
+        document.getElementById('footer').innerHTML = fetch('includes/footer.html').then(res => res.text());
+    </script>
     <script>
         // Charger le fichier JSON et générer le contenu du programme
         fetch('data/schedule.json')
