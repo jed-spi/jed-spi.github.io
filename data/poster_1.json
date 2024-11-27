@@ -1,0 +1,20 @@
+{
+    "time": "10:00 - 11:15",
+    "posters": [
+        {
+            "title": "Exploration des Neurosciences",
+            "author": "Dr. L. Dupont",
+            "link": "https://example.com"
+        },
+        {
+            "title": "Nouvelles Méthodes en Biotechnologie",
+            "author": "C. Martin",
+            "link": null
+        },
+        {
+            "title": "Intelligence Artificielle et Éthique",
+            "author": "S. Petit",
+            "link": null
+        }
+    ]
+}
