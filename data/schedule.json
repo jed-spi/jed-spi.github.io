@@ -1,19 +1,108 @@
-[
-    {"start": "08:30", "end": "09:00", "title": "Accueil café", "link": null},
-    {"start": "09:00", "end": "09:10", "title": "Présentation de la journée", "link": null},
-    {"start": "09:10", "end": "09:35", "title": "Valorisation de la recherche", "link": null},
-    {"start": "09:35", "end": "10:00", "title": "Médiation scientifique", "link": null},
-    {"start": "10:00", "end": "11:15", "title": "Session poster 1 autour d'un café", "link": null},
-    {"start": "11:15", "end": "11:30", "title": "Présentation 1", "link": "https://example.com"},
-    {"start": "11:30", "end": "11:45", "title": "Présentation 2", "link": null},
-    {"start": "11:45", "end": "12:00", "title": "Présentation 3", "link": null},
-    {"start": "12:00", "end": "12:15", "title": "Election des nouveaux représentants des doctorants", "link": null},
-    {"start": "12:15", "end": "13:40", "title": "Pause déjeuner", "link": null},
-    {"start": "13:40", "end": "14:00", "title": "Super présentation", "link": null},
-    {"start": "14:00", "end": "14:15", "title": "Présentation 4", "link": null},
-    {"start": "14:15", "end": "14:30", "title": "Présentation 5", "link": null},
-    {"start": "14:30", "end": "14:45", "title": "Présentation 6", "link": null},
-    {"start": "14:45", "end": "16:00", "title": "Session poster 2 autour d'un café", "link": null},
-    {"start": "16:00", "end": "17:00", "title": "Remise des prix du concours photo", "link": null},
-    {"start": "17:00", "end": "17:15", "title": "Clôture de la journée", "link": null}
-]
+{
+    "date": "Vendredi 28 mars 2025",
+    "lieu": "Salle Agora du Haut-Carré - 43 Rue Pierre Noailles à Talence",
+    "programme": [
+        {
+            "start": "08:30",
+            "end": "09:00",
+            "title": "Accueil café",
+            "link": null
+        },
+        {
+            "start": "09:00",
+            "end": "09:10",
+            "title": "Présentation de la journée",
+            "link": null
+        },
+        {
+            "start": "09:10",
+            "end": "09:35",
+            "title": "Valorisation de la recherche",
+            "link": null
+        },
+        {
+            "start": "09:35",
+            "end": "10:00",
+            "title": "Médiation scientifique",
+            "link": null
+        },
+        {
+            "start": "10:00",
+            "end": "11:15",
+            "title": "Session poster 1 autour d'un café",
+            "link": null
+        },
+        {
+            "start": "11:15",
+            "end": "11:30",
+            "title": "Présentation 1",
+            "link": "https://example.com"
+        },
+        {
+            "start": "11:30",
+            "end": "11:45",
+            "title": "Présentation 2",
+            "link": null
+        },
+        {
+            "start": "11:45",
+            "end": "12:00",
+            "title": "Présentation 3",
+            "link": null
+        },
+        {
+            "start": "12:00",
+            "end": "12:15",
+            "title": "Election des nouveaux représentants des doctorants",
+            "link": null
+        },
+        {
+            "start": "12:15",
+            "end": "13:40",
+            "title": "Pause déjeuner",
+            "link": null
+        },
+        {
+            "start": "13:40",
+            "end": "14:00",
+            "title": "Super présentation",
+            "link": null
+        },
+        {
+            "start": "14:00",
+            "end": "14:15",
+            "title": "Présentation 4",
+            "link": null
+        },
+        {
+            "start": "14:15",
+            "end": "14:30",
+            "title": "Présentation 5",
+            "link": null
+        },
+        {
+            "start": "14:30",
+            "end": "14:45",
+            "title": "Présentation 6",
+            "link": null
+        },
+        {
+            "start": "14:45",
+            "end": "16:00",
+            "title": "Session poster 2 autour d'un café",
+            "link": null
+        },
+        {
+            "start": "16:00",
+            "end": "17:00",
+            "title": "Remise des prix du concours photo",
+            "link": null
+        },
+        {
+            "start": "17:00",
+            "end": "17:15",
+            "title": "Clôture de la journée",
+            "link": null
+        }
+    ]
+}

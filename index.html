@@ -13,16 +13,14 @@
         <!-- Section des infos pratiques -->
         <section id="infos-pratiques">
             <h2>Informations Pratiques</h2>
-            <p><strong>Date :</strong> Vendredi 28 mars 2025, de 08:30 à 17:15</p>
-            <p><strong>Lieu :</strong> Salle Agora du Haut-Carré - 43 Rue Pierre Noailles à Talence</p>
+            <p><strong>Date :</strong> <span id="date"></span></p>
+            <p><strong>Lieu :</strong> <span id="lieu"></span></p>
         </section>
 
         <!-- Section du programme de la journée -->
         <section id="programme">
             <h2>Programme de la Journée</h2>
-            <ul id="programme-list">
-                <!-- Contenu généré par JavaScript -->
-            </ul>
+            <ul id="programme-list"></ul>
         </section>
 
         <!-- Navigation vers les rubriques supplémentaires -->
@@ -41,23 +39,34 @@
     <div id="footer"></div>
 
     <script src="script/load_header-footer.js"></script>
+
     <script>
-        // Charger le fichier JSON et générer le contenu du programme
-        fetch('data/schedule.json')
+        // Fonction pour charger le programme
+        fetch('schedule.json')
             .then(response => response.json())
-            .then(schedule => {
+            .then(data => {
+                // Remplir la section Infos pratiques avec la date et le lieu
+                document.getElementById('date').textContent = data.date;
+                document.getElementById('lieu').textContent = data.lieu;
+
+                // Remplir la liste du programme
                 const programmeList = document.getElementById('programme-list');
-                schedule.forEach(event => {
+                data.programme.forEach(item => {
                     const listItem = document.createElement('li');
-                    listItem.innerHTML = `
-                        <strong>${event.start} - ${event.end} :</strong>
-                        ${event.title}
-                        ${event.link ? `<a href="${event.link}">[lien]</a>` : ''}
-                    `;
+                    listItem.innerHTML = `<strong>${item.start} - ${item.end} :</strong> ${item.title}`;
+
+                    // Si un lien est présent, ajouter un lien
+                    if (item.link) {
+                        const link = document.createElement('a');
+                        link.href = item.link;
+                        link.textContent = " [lien]";
+                        listItem.appendChild(link);
+                    }
+
                     programmeList.appendChild(listItem);
                 });
             })
-            .catch(error => console.error('Erreur lors du chargement du programme :', error));
+            .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
     </script>
 </body>
 </html>
