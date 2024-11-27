@@ -1,0 +1,20 @@
+[
+    {
+        "author": "Alice",
+        "title": "Sunset at the Beach",
+        "description": "A beautiful sunset over the ocean.",
+        "image_url": "https://example.com/sunset.jpg"
+    },
+    {
+        "author": "Bob",
+        "title": "Mountain Range",
+        "description": "Snowy peaks touching the sky.",
+        "image_url": "https://example.com/mountains.jpg"
+    },
+    {
+        "author": "Charlie",
+        "title": "City Lights",
+        "description": "A bustling city illuminated at night.",
+        "image_url": "https://example.com/city.jpg"
+    }
+]
