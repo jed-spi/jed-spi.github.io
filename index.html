@@ -57,9 +57,11 @@
 
                     // Si un lien est présent, ajouter un lien
                     if (item.link) {
+                        const space = document.createTextNode(" ");
+                        listItem.appendChild(space);
                         const link = document.createElement('a');
                         link.href = item.link;
-                        link.textContent = " [lien]";
+                        link.textContent = "[lien]";
                         listItem.appendChild(link);
                     }
 
