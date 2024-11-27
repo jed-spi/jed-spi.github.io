@@ -4,7 +4,7 @@
     {"start": "09:10", "end": "09:35", "title": "Valorisation de la recherche", "link": null},
     {"start": "09:35", "end": "10:00", "title": "Médiation scientifique", "link": null},
     {"start": "10:00", "end": "11:15", "title": "Session poster 1 autour d'un café", "link": null},
-    {"start": "11:15", "end": "11:30", "title": "Présentation 1", "link": "link_to_presentaion"},
+    {"start": "11:15", "end": "11:30", "title": "Présentation 1", "link": "https://example.com"},
     {"start": "11:30", "end": "11:45", "title": "Présentation 2", "link": null},
     {"start": "11:45", "end": "12:00", "title": "Présentation 3", "link": null},
     {"start": "12:00", "end": "12:15", "title": "Election des nouveaux représentants des doctorants", "link": null},
