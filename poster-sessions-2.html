@@ -14,27 +14,10 @@
     </a>
 
     <main>
-
         <section id="programme">
             <h2>2ème session posters</h2>
-            <h3 style="color: red;">Le programme affiché n'est qu'une template.</h3>
-            <br>
-            <div class="programme-item">
-                <h3>Heure : 14:45 - 16:00</h3>
-                <ul>
-                    <li>
-                        <strong>Poster #4 :</strong> Enjeux Environnementaux Actuels <br>
-                        <em>Auteur :</em> J. Bernard
-                    </li>
-                    <li>
-                        <strong>Poster #5 :</strong> Avancées en Physique Quantique <br>
-                        <em>Auteur :</em> R. Dubois
-                    </li>
-                    <li>
-                        <strong>Poster #6 :</strong> Analyse des Données Massives <br>
-                        <em>Auteur :</em> E. Leblanc
-                    </li>
-                </ul>
+            <div id="poster-session">
+                <!-- Contenu généré dynamiquement -->
             </div>
             <br>
             <nav id="rubriques">
@@ -44,10 +27,40 @@
                     <li><a href="./poster-sessions-1.html">Programme de la 1ère session</a></li>
                 </ul>
             </nav>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Ecole Doctorale SPI - Univ. Bordeaux. Tous droits réservés.</p>
     </footer>
+
+    <script>
+        // Charger le fichier JSON et générer le contenu de la session poster
+        fetch('data/poster_2.json')
+            .then(response => response.json())
+            .then(data => {
+                const sessionDiv = document.getElementById('poster-session');
+
+                // Ajout de l'horaire
+                const timeHeading = document.createElement('h3');
+                timeHeading.textContent = `Heure : ${data.time}`;
+                sessionDiv.appendChild(timeHeading);
+
+                // Création de la liste des posters
+                const ul = document.createElement('ul');
+                data.posters.forEach((poster, index) => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `
+                        <strong>${index + 1} :</strong> ${poster.title} <br>
+                        <em>Auteur :</em> ${poster.author}
+                        ${poster.link ? `<a href="${poster.link}">[pdf]</a>` : ''}
+                    `;
+                    ul.appendChild(li);
+                });
+
+                sessionDiv.appendChild(ul);
+            })
+            .catch(error => console.error('Erreur lors du chargement du programme de la session posters :', error));
+    </script>
 </body>
 </html>
