@@ -38,9 +38,23 @@
                     const galleryItem = document.createElement('div');
                     galleryItem.className = 'gallery-item';
 
-                    // Description abrégée
-                    const shortDescription = item.description.slice(0, 50); // Les 50 premiers caractères
-                    const isDescriptionLong = item.description.length > 50;
+                    // Description abrégée avec ajustement pour finir le mot
+                    const minLength = 50;
+                    let shortDescription = item.description.slice(0, minLength);
+
+                    // Vérifier si on est coupé au milieu d'un mot et prolonger jusqu'à la fin du mot
+                    if (item.description.length > minLength) {
+                        const nextSpaceIndex = item.description.indexOf(' ', minLength);
+                        if (nextSpaceIndex !== -1) {
+                            shortDescription = item.description.slice(0, nextSpaceIndex);
+                        } else {
+                            shortDescription = item.description; // Tout le texte si pas d'espace
+                        }
+                    }
+
+                    // Déterminer si le texte abrégé est une version tronquée
+                    const isDescriptionLong = shortDescription.trim() !== item.description.trim();
+
 
                     // Générer le contenu HTML
                     galleryItem.innerHTML = `
@@ -52,7 +66,7 @@
 
                         <p class="image-description">
                             ${item.author} - ${shortDescription}
-                            ${isDescriptionLong ? `<span class="description-link" style="color: blue; text-decoration: underline; cursor: pointer;">...</span>` : ''}
+                            ${isDescriptionLong ? `<span class="description-link" style="color: blue; text-decoration: underline; cursor: pointer;">[suite]</span>` : ''}
                         </p>
                     `;
 
