@@ -5,23 +5,53 @@
         "image_id": "1a3ssg9LVIkcMtVZ0Z4naO0-wbz6fQhjC"
     },
     {
-        "author": "Kitty 2",
-        "description": "Chactambule selon une IA générative. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image_id": "1ElNSdEuQckEfsKR23Jo38b0cGWXCLFK6"
+        "author": "Ludovic Brivady",
+        "description": "Tas de sable.",
+        "image_id": "1PwFvp3UFNZXbor6uTQEtbbaek55DXH5i"
     },
     {
-        "author": "Kitty 3",
-        "description": "Chapeur pompier selon une IA générative",
-        "image_id": "1fBULs8HS01-fuhQmir-_DwXqTXmeptbm"
+        "author": "Ludovic Brivady",
+        "description": "Mesure du frottement entre deux surfaces.",
+        "image_id": "1a9XR12abCuqQObheZdu-0V_TgAI7rFQy"
     },
     {
-        "author": "Kitty 4",
-        "description": "Channiversaire selon une IA générative",
-        "image_id": "1QxGQh6L4CqMoepJiUJz5YAal73o9ys81"
+        "author": "Ludovic Brivady",
+        "description": "Avalanche miniature en laboratoire.",
+        "image_id": "11huiESyc4Uh2PiudZKuUMmg1yahPD-Zw"
     },
     {
-        "author": "Kitty 5",
-        "description": "Charc-en-ciel selon une IA générative",
-        "image_id": "1VM3Wb409yEpmWCgZlLY6rYQa_ZTE45s8"
+        "author": "Ludovic Brivady",
+        "description": "Billes de verre de 110µm.",
+        "image_id": "12R8StJFrgLP-GK9yEOBBu9qr0ar3guwM"
+    },
+    {
+        "author": "Paul Fauverge",
+        "description": "Les télescopes Tcherenkov atmosphériques H.E.S.S. en Namibie, sous un ciel nocturne exceptionnellement clair. Deux des plus petits télescopes et le grand télescope du réseau H.E.S.S., qui en compte cinq au total, sont visibles sur l'image. En arrière-plan, le centre de la Voie lactée domine, révélant des détails spectaculaires rendus plus accessibles depuis l'hémisphère Sud.",
+        "image_id": "1H-_mszr2gJ-ElxySAoaSOrRSB9Sbb0Jg"
+    },
+    {
+        "author": "Manon Lafarge",
+        "description": "Soudage hétérogène verre/acier avec un motif en spiral, via soudage laser en régime rafale GHz.",
+        "image_id": "1umtCRSkdJJcqAthBlFN_b8JNBALkg49w"
+    },
+    {
+        "author": "Manon Lafarge",
+        "description": "Image au MEB d'un échantillon soudé verre/acier après un test d'arrachement.",
+        "image_id": "18a_iYAaE26fWFhxYyOrYpLdfswf0082d"
+    },
+    {
+        "author": "Manon Lafarge",
+        "description": "Modification en volume dans la silice produite avec un laser femtoseconde GHz.",
+        "image_id": "1R9oNSlnLMjjtuj4LuQbw0xNh2dY8ILBX"
+    },
+    {
+        "author": "Manon Lafarge",
+        "description": "Assemblage de lames de silice par laser femtoseconde par transparence.",
+        "image_id": "19MdJXEmVlERuNc5j3E-Pen5lFRo8A3dw"
+    },
+    {
+        "author": "Manon Lafarge",
+        "description": "Rupture d'un échantillon soudé au laser lors d'un test de traction.",
+        "image_id": "1lVA551DOZJ-cwRHKayJy0iL0-a2tR4dC"
     }
 ]
