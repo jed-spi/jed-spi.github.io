@@ -44,11 +44,12 @@
 
                     // Générer le contenu HTML
                     galleryItem.innerHTML = `
-                        <a href="https://drive.google.com/uc?export=view&id=${item.image_id}" target="_blank">
-                            <div class="thumbnail-container">
-                                <img src="https://drive.google.com/thumbnail?id=${item.image_id}" alt="${item.author}">
-                            </div>
-                        </a>
+                    <a href="https://lh3.googleusercontent.com/d/${item.image_id}" target="_blank">
+                        <div class="thumbnail-container">
+                            <img src="https://lh3.googleusercontent.com/d/${item.image_id}" alt="${item.author}">
+                        </div>
+                    </a>
+
                         <p class="image-description">
                             ${item.author} - ${shortDescription}
                             ${isDescriptionLong ? `<span class="description-link" style="color: blue; text-decoration: underline; cursor: pointer;">...</span>` : ''}
