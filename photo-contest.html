@@ -40,7 +40,9 @@
 
                     // Description abrégée
                     const shortDescription = item.description.slice(0, 50); // Les 50 premiers caractères
+                    const isDescriptionLong = item.description.length > 50;
 
+                    // Générer le contenu HTML
                     galleryItem.innerHTML = `
                         <a href="https://drive.google.com/uc?export=view&id=${item.image_id}" target="_blank">
                             <div class="thumbnail-container">
@@ -49,17 +51,17 @@
                         </a>
                         <p class="image-description">
                             ${item.author} - ${shortDescription}
-                            <span class="description-link" style="color: blue; text-decoration: underline; cursor: pointer;">
-                                ...
-                            </span>
+                            ${isDescriptionLong ? `<span class="description-link" style="color: blue; text-decoration: underline; cursor: pointer;">...</span>` : ''}
                         </p>
                     `;
 
-                    // Ajouter un événement pour la pop-up de la description complète
-                    const link = galleryItem.querySelector('.description-link');
-                    link.addEventListener('click', () => {
-                        alert(`Description complète :\n\n${item.description}`);
-                    });
+                    // Si la description est longue, ajouter un événement pour afficher intégralement la description
+                    if (isDescriptionLong) {
+                        const link = galleryItem.querySelector('.description-link');
+                        link.addEventListener('click', () => {
+                            alert(`Description complète :\n\n${item.description}`);
+                        });
+                    }
 
                     gallery.appendChild(galleryItem);
                 });
