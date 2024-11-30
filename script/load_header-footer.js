@@ -9,5 +9,5 @@ async function load(file, elementId) {
 }
 
 // Appel de la fonction pour charger le header et le footer
-load('includes/header.html', 'header');
-load('includes/footer.html', 'footer');
+load('https://jed-spi.github.io/includes/header.html', 'header');
+load('https://jed-spi.github.io/includes/footer.html', 'footer');

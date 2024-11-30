@@ -157,6 +157,12 @@ nav#rubriques ul li a {
     font-weight: bold;
 }
 
+.description-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* Footer */
 footer {
     background-color: #007CBD;

@@ -30,7 +30,7 @@
 
     <script>
         // Charger et afficher les données JSON
-        fetch('data/gallery.json')
+        fetch("https://jed-spi.github.io/data/gallery.json")
             .then(response => response.json())
             .then(data => {
                 const gallery = document.getElementById('gallery');
@@ -38,18 +38,34 @@
                     const galleryItem = document.createElement('div');
                     galleryItem.className = 'gallery-item';
 
+                    // Description abrégée
+                    const shortDescription = item.description.slice(0, 50); // Les 50 premiers caractères
+
                     galleryItem.innerHTML = `
                         <a href="https://drive.google.com/uc?export=view&id=${item.image_id}" target="_blank">
                             <div class="thumbnail-container">
-                                <img src="https://drive.google.com/thumbnail?id=${item.image_id}" alt="${item.title}">
+                                <img src="https://drive.google.com/thumbnail?id=${item.image_id}" alt="${item.author}">
                             </div>
                         </a>
-                        <p class="image-description">${item.title} - ${item.description}</p>
+                        <p class="image-description">
+                            ${item.author} - ${shortDescription}
+                            <span class="description-link" style="color: blue; text-decoration: underline; cursor: pointer;">
+                                ...
+                            </span>
+                        </p>
                     `;
+
+                    // Ajouter un événement pour la pop-up de la description complète
+                    const link = galleryItem.querySelector('.description-link');
+                    link.addEventListener('click', () => {
+                        alert(`Description complète :\n\n${item.description}`);
+                    });
+
                     gallery.appendChild(galleryItem);
                 });
             })
             .catch(error => console.error('Erreur lors du chargement des données :', error));
     </script>
+
 </body>
 </html>
