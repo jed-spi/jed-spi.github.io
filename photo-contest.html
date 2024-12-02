@@ -37,6 +37,9 @@
             .then(data => {
                 const gallery = document.getElementById('gallery');
                 data.forEach(item => {
+                    if (item.display == "no") return;  // ignore l'élément
+                    if (item.description === null) item.description = " ";
+
                     const galleryItem = document.createElement('div');
                     galleryItem.className = 'gallery-item';
 
