@@ -6,12 +6,12 @@
     },
     {
         "author": "Ludovic Brivady",
-        "description": "Tas de sable.",
+        "description": "Tas de sable obtenu en laissant tomber un filet de grains. L'angle fait par la surface avec l'horizontale est déterminé par les propriétés frictionnelles du sable.",
         "image_id": "1PwFvp3UFNZXbor6uTQEtbbaek55DXH5i"
     },
     {
         "author": "Ludovic Brivady",
-        "description": "Mesure du frottement entre deux surfaces.",
+        "description": "Montage expérimental pour mesurer les coefficients de friction (statique et dynamique) entre 2 matériaux.",
         "image_id": "1a9XR12abCuqQObheZdu-0V_TgAI7rFQy"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "author": "Ludovic Brivady",
-        "description": "Billes de verre de 110µm.",
+        "description": "Billes de verre de 110µm dont on étudue la distribution.",
         "image_id": "12R8StJFrgLP-GK9yEOBBu9qr0ar3guwM"
     },
     {
