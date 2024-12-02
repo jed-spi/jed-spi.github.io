@@ -2,61 +2,103 @@
     {
         "author": "Manon Barrière",
         "description": "Particule de silicium de 100 nm de diamètre piégée par le principe de pince optique grâce à un laser émettant à 1550 nm. En haut (élément gris) se trouve l'objectif de microscope qui permet de focaliser la lumière et de piéger la particule. La lumière diffusée par la particule peut être vue car elle est illuminée avec un laser vert. Ainsi, on voit un petit point vert juste devant l'objectif de microscope, qui correspond à la lumière diffusée par une nanoparticule.",
-        "image_id": "1a3ssg9LVIkcMtVZ0Z4naO0-wbz6fQhjC"
+        "image_id": "1a3ssg9LVIkcMtVZ0Z4naO0-wbz6fQhjC",
+        "display": "yes"
     },
     {
         "author": "Ludovic Brivady",
         "description": "Tas de sable obtenu en laissant tomber un filet de grains. L'angle entre la surface et l'horizontale se détermine par les propriétés frictionnelles du sable.",
-        "image_id": "1PwFvp3UFNZXbor6uTQEtbbaek55DXH5i"
+        "image_id": "1PwFvp3UFNZXbor6uTQEtbbaek55DXH5i",
+        "display": "yes"
     },
     {
         "author": "Ludovic Brivady",
         "description": "Montage expérimental pour mesurer les coefficients de friction (statique et dynamique) entre 2 matériaux.",
-        "image_id": "1a9XR12abCuqQObheZdu-0V_TgAI7rFQy"
+        "image_id": "1a9XR12abCuqQObheZdu-0V_TgAI7rFQy",
+        "display": "yes"
     },
     {
         "author": "Ludovic Brivady",
         "description": "Avalanche miniature en laboratoire.",
-        "image_id": "11huiESyc4Uh2PiudZKuUMmg1yahPD-Zw"
+        "image_id": "11huiESyc4Uh2PiudZKuUMmg1yahPD-Zw",
+        "display": "yes"
     },
     {
         "author": "Ludovic Brivady",
         "description": "Billes de verre de 110µm dont on étudue la distribution.",
-        "image_id": "12R8StJFrgLP-GK9yEOBBu9qr0ar3guwM"
+        "image_id": "12R8StJFrgLP-GK9yEOBBu9qr0ar3guwM",
+        "display": "yes"
     },
     {
         "author": "Guillaume Cottin",
         "description" : "Une image radar SAR représentant une vue aérienne d’un aéroport. On y distingue des avions parqués au centre de l’image, les pistes d’atterrissage et de décollage, ainsi que des bâtiments d’infrastructure visibles en blanc. L’effet de 'speckle', caractéristique des acquisitions radar, est présent.",
-        "image_id": "1-e_cLWx2OxXRKkthK0QghzUWaaeRypco"
+        "image_id": "1-e_cLWx2OxXRKkthK0QghzUWaaeRypco",
+        "display": "yes"
     },
     {
         "author": "Paul Fauverge",
         "description": "Les télescopes Tcherenkov atmosphériques H.E.S.S. en Namibie, sous un ciel nocturne exceptionnellement clair. Deux des plus petits télescopes et le grand télescope du réseau H.E.S.S., qui en compte cinq au total, sont visibles sur l'image. En arrière-plan, le centre de la Voie lactée domine, révélant des détails spectaculaires rendus plus accessibles depuis l'hémisphère Sud.",
-        "image_id": "1H-_mszr2gJ-ElxySAoaSOrRSB9Sbb0Jg"
+        "image_id": "1H-_mszr2gJ-ElxySAoaSOrRSB9Sbb0Jg",
+        "display": "yes"
     },
     {
         "author": "Manon Lafarge",
         "description": "Soudage hétérogène verre/acier avec un motif en spiral, via soudage laser en régime rafale GHz.",
-        "image_id": "1umtCRSkdJJcqAthBlFN_b8JNBALkg49w"
+        "image_id": "1umtCRSkdJJcqAthBlFN_b8JNBALkg49w",
+        "display": "yes"
     },
     {
         "author": "Manon Lafarge",
         "description": "Image au MEB d'un échantillon soudé verre/acier après un test d'arrachement.",
-        "image_id": "16wEFdl3YLB1mHkXqBLbrcjZhozHlM_e0"
+        "image_id": "16wEFdl3YLB1mHkXqBLbrcjZhozHlM_e0",
+        "display": "yes"
     },
     {
         "author": "Manon Lafarge",
         "description": "Modification en volume dans la silice produite avec un laser femtoseconde GHz.",
-        "image_id": "1R9oNSlnLMjjtuj4LuQbw0xNh2dY8ILBX"
+        "image_id": "1R9oNSlnLMjjtuj4LuQbw0xNh2dY8ILBX",
+        "display": "yes"
     },
     {
         "author": "Manon Lafarge",
         "description": "Assemblage de lames de silice par laser femtoseconde par transparence.",
-        "image_id": "19MdJXEmVlERuNc5j3E-Pen5lFRo8A3dw"
+        "image_id": "19MdJXEmVlERuNc5j3E-Pen5lFRo8A3dw",
+        "display": "yes"
     },
     {
         "author": "Manon Lafarge",
         "description": "Rupture d'un échantillon soudé au laser lors d'un test de traction.",
-        "image_id": "1lVA551DOZJ-cwRHKayJy0iL0-a2tR4dC"
+        "image_id": "1lVA551DOZJ-cwRHKayJy0iL0-a2tR4dC",
+        "display": "yes"
+    },
+    {
+        "author": "Milad Zahediyami",
+        "description": null,
+        "image_id": "1SV0FtFbAoFWILVbOMZtK2kopPRDow_mh",
+        "display": "no"
+    },
+    {
+        "author": "Milad Zahediyami",
+        "description": null,
+        "image_id": "1sguH7eBB57vE36Sm9aEogyRu6pb-Tm-y",
+        "display": "no"
+    },
+    {
+        "author": "Milad Zahediyami",
+        "description": null,
+        "image_id": "1PRgQzWAqeGfFup_ObngSqL98jEC55efV",
+        "display": "no"
+    },
+    {
+        "author": "Milad Zahediyami",
+        "description": null,
+        "image_id": "1m0WyoonHS_zRHCAqWDwb6P2Bh11qkP1g",
+        "display": "no"
+    },
+    {
+        "author": "Milad Zahediyami",
+        "description": null,
+        "image_id": "1m9RQfCYpBjapYwxt6tZugHxXCu1OMRcq",
+        "display": "no"
     }
 ]
