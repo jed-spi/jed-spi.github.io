@@ -75,13 +75,13 @@
         "author": "Milad Zahediyami",
         "description": null,
         "image_id": "1SV0FtFbAoFWILVbOMZtK2kopPRDow_mh",
-        "display": "no"
+        "display": "yes"
     },
     {
         "author": "Milad Zahediyami",
         "description": null,
         "image_id": "1sguH7eBB57vE36Sm9aEogyRu6pb-Tm-y",
-        "display": "no"
+        "display": "yes"
     },
     {
         "author": "Milad Zahediyami",
@@ -91,7 +91,7 @@
     },
     {
         "author": "Milad Zahediyami",
-        "description": "test",
+        "description": null,
         "image_id": "1m0WyoonHS_zRHCAqWDwb6P2Bh11qkP1g",
         "display": "yes"
     },
@@ -99,6 +99,6 @@
         "author": "Milad Zahediyami",
         "description": null,
         "image_id": "1m9RQfCYpBjapYwxt6tZugHxXCu1OMRcq",
-        "display": "no"
+        "display": "yes"
     }
 ]
