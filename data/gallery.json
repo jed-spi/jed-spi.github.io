@@ -78,6 +78,12 @@
         "display": "yes"
     },
     {
+        "author": "Pitambar Mukherjee",
+        "description": "Imagerie diffractive THz utilisant un laser à cascade quantique et une caméra THz. La reconstruction a été réalisée à l'aide d'un algorithme itératif de récupération de phase non interférométrique.",
+        "image_id": "1o7kGtWIljTn0DDe5w1QR2b60EnIEWjRb",
+        "display": "yes"
+    }
+    {
         "author": "Milad Zahediyami",
         "description": null,
         "image_id": "1SV0FtFbAoFWILVbOMZtK2kopPRDow_mh",
