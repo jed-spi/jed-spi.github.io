@@ -6,6 +6,12 @@
         "display": "yes"
     },
     {
+        "author": "1ywReT-aW7jyRH7I3Mjl6kz5vF27Tn6gD",
+        "description": "Image de spectroscopie. L'axe vertical pour l'espace et l'axe horizontal pour la longueur d'onde.",
+        "image_id": "1ywReT-aW7jyRH7I3Mjl6kz5vF27Tn6gD",
+        "display": "yes"
+    },
+    {
         "author": "Ludovic Brivady",
         "description": "Tas de sable obtenu en laissant tomber un filet de grains. L'angle entre la surface et l'horizontale se détermine par les propriétés frictionnelles du sable.",
         "image_id": "1PwFvp3UFNZXbor6uTQEtbbaek55DXH5i",
@@ -42,6 +48,12 @@
         "display": "yes"
     },
     {
+        "author": "Clément Lacoste",
+        "description": "Parabole de Thompson. Des ions sont déviés par un champ électromagnétique.",
+        "image_id": "1Y6P_Id0A-e9hVsjrPazwO8nNUl9AWTAM",
+        "display": "yes"
+    },
+    {
         "author": "Manon Lafarge",
         "description": "Soudage hétérogène verre/acier avec un motif en spiral, via soudage laser en régime rafale GHz.",
         "image_id": "1umtCRSkdJJcqAthBlFN_b8JNBALkg49w",
@@ -75,6 +87,12 @@
         "author": "Pitambar Mukherjee",
         "description": "Imagerie diffractive THz utilisant un laser à cascade quantique et une caméra THz. La reconstruction a été réalisée à l'aide d'un algorithme itératif de récupération de phase non interférométrique.",
         "image_id": "1o7kGtWIljTn0DDe5w1QR2b60EnIEWjRb",
+        "display": "yes"
+    },
+    {
+        "author": "Jojo Varghese",
+        "description": "Caractérisation et Modélisation des Transistors SiGeHBT pour Performances Hautes Fréquences. Une mesure précise est essentielle pour comprendre les caractéristiques des dispositifs, faisant de leur caractérisation une étape cruciale. Cette thèse vise à caractériser et modéliser les transistors bipolaires à hétérojonction en silicium-germanium (SiGeHBT) afin d’évaluer leurs performances en haute fréquence. L’approche repose sur la mise en œuvre d’une procédure d’étalonnage utilisant un modèle d’erreur à 16 termes, conçu pour éliminer les erreurs systématiques dans les mesures des paramètres S. Ces données étalonnées seront comparées à des mesures radiofréquences (RF) indépendantes et à des simulations électromagnétiques (EM) pour valider la précision de l’étalonnage et évaluer les performances en haute fréquence des dispositifs. Un substrat d’étalonnage a été conçu à l’aide du logiciel K-Layout, intégrant diverses normes à deux ports (par exemple, Load-Load, Load-Open) basées sur les dimensions des substrats d’étalonnage Cascade CS5 et CS15. Un plan détaillé, regroupant toutes les structures conçues, garantit une méthodologie systématique pour le design du substrat d’étalonnage. Cette recherche contribue à améliorer la précision des mesures RF pour les dispositifs semi-conducteurs miniaturisés, un aspect essentiel au développement de composants électroniques haute fréquence.",
+        "image_id": "1wey5ZtML2bJ3ku6eBuuVmz970W6FUmfr",
         "display": "yes"
     },
     {
