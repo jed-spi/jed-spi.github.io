@@ -42,6 +42,12 @@
         "display": "yes"
     },
     {
+        "author": "Ana Dib",
+        "description" : "3D Multi-Temporal Monitoring of Vineyards Using Mobile Robotic Systems. This research aims to develop a cutting-edge system for 3D multi-temporal monitoring of vineyards, focusing on key vineyard features such as vine crops, grape clusters, and structural elements of the vineyard. Utilizing sensors such as cameras and GPS, the system identifies and models each vine row in 3D, enabling precise detection, localization, and re-identification of individual grape clusters weekly. This approach captures critical changes in grape development and vine health throughout different phenological stages and seasonal cycles. To enhance functionality, a robotic arm integrated with a mobile robot facilitates targeted observation and data acquisition, ensuring detailed monitoring of essential features. This work supports precision viticulture by offering advanced tools for analyzing crop dynamics and optimizing vineyard management.",
+        "image_id" : "1VqmgvruwC4uv6CPA5fdN3cKE_lGYErM9",
+        "display" : "yes"
+    },
+    {
         "author": "Paul Fauverge",
         "description": "Les télescopes Tcherenkov atmosphériques H.E.S.S. en Namibie, sous un ciel nocturne exceptionnellement clair. Deux des plus petits télescopes et le grand télescope du réseau H.E.S.S., qui en compte cinq au total, sont visibles sur l'image. En arrière-plan, le centre de la Voie lactée domine, révélant des détails spectaculaires rendus plus accessibles depuis l'hémisphère Sud.",
         "image_id": "1H-_mszr2gJ-ElxySAoaSOrRSB9Sbb0Jg",
