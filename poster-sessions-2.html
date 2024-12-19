@@ -50,7 +50,9 @@
                     li.innerHTML = `
                         <strong>${index + 1} :</strong> ${poster.title} <br>
                         <em>Auteur :</em> ${poster.author}
-                        ${poster.link ? `<a href="${poster.link}">[pdf]</a>` : ''}
+                        ${poster.cv ? `<a href="${poster.cv}">[CV]</a>` : ''}
+                        ${poster.abstract ? `<a href="${poster.abstract}">[abstract]</a>` : ''}
+                        ${poster.poster ? `<a href="${poster.poster}">[poster]</a>` : ''}
                     `;
                     ul.appendChild(li);
                 });

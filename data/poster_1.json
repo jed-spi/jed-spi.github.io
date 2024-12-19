@@ -4,17 +4,27 @@
         {
             "title": "Exploration des Neurosciences",
             "author": "Dr. L. Dupont",
-            "link": "https://example.com"
+            "labo": "Laboratoire",
+            "speciality": "Spé",
+            "cv": "https://example.com",
+            "abstract": "https://example.com",
+            "poster": "https://example.com"
         },
         {
             "title": "Nouvelles Méthodes en Biotechnologie",
             "author": "C. Martin",
-            "link": null
+            "labo": "Laboratoire",
+            "speciality": "Spé",
+            "abstract": "https://example.com",
+            "poster": "https://example.com"
         },
         {
             "title": "Intelligence Artificielle et Éthique",
             "author": "S. Petit",
-            "link": null
+            "labo": "Laboratoire",
+            "speciality": "Spé",
+            "abstract": null,
+            "poster": null
         }
     ]
 }

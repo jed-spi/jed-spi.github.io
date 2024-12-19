@@ -4,17 +4,29 @@
         {
             "title": "Application de la Mécanique des Fluides à l'Aérospatial",
             "author": "A. Girard",
-            "link": null
+            "labo": "Laboratoire",
+            "speciality": "Spé",
+            "cv": "https://example.com",
+            "abstract": "https://example.com",
+            "poster": "https://example.com"
         },
         {
             "title": "Innovations en Chimie Verte",
             "author": "B. Lopez",
-            "link": null
+            "labo": "Laboratoire",
+            "speciality": "Spé",
+            "cv": "https://example.com",
+            "abstract": "https://example.com",
+            "poster": "https://example.com"
         },
         {
             "title": "Modélisation en Astrophysique",
             "author": "M. Bernard",
-            "link": null
+            "labo": "Laboratoire",
+            "speciality": "Spé",
+            "cv": "https://example.com",
+            "abstract": "https://example.com",
+            "poster": "https://example.com"
         }
     ]
 }
