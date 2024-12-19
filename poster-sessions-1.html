@@ -49,7 +49,7 @@
                     const li = document.createElement('li');
                     li.innerHTML = `
                         <strong>${index + 1} :</strong> ${poster.title} <br>
-                        <em>Auteur :</em> ${poster.author}
+                        <em>Auteur : </em>${poster.author} en spécialité ${poster.speciality} au laboratoire ${poster.labo} <br>
                         ${poster.cv ? `<a href="${poster.cv}">[CV]</a>` : ''}
                         ${poster.abstract ? `<a href="${poster.abstract}">[abstract]</a>` : ''}
                         ${poster.poster ? `<a href="${poster.poster}">[poster]</a>` : ''}

@@ -15,6 +15,7 @@
             "author": "C. Martin",
             "labo": "Laboratoire",
             "speciality": "Spé",
+            "cv": "https://example.com",
             "abstract": "https://example.com",
             "poster": "https://example.com"
         },
@@ -23,6 +24,7 @@
             "author": "S. Petit",
             "labo": "Laboratoire",
             "speciality": "Spé",
+            "cv": null,
             "abstract": null,
             "poster": null
         }
