@@ -2,6 +2,7 @@
     "time": "14:55 - 16:10",
     "posters": [
         {
+            "id": "A",
             "title": "Application de la Mécanique des Fluides à l'Aérospatial",
             "author": "A. Girard",
             "labo": "Laboratoire",
@@ -11,6 +12,7 @@
             "poster": "https://example.com"
         },
         {
+            "id": "A01",
             "title": "Innovations en Chimie Verte",
             "author": "B. Lopez",
             "labo": "Laboratoire",
@@ -20,6 +22,7 @@
             "poster": "https://example.com"
         },
         {
+            "id": "B",
             "title": "Modélisation en Astrophysique",
             "author": "M. Bernard",
             "labo": "Laboratoire",

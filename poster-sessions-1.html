@@ -43,12 +43,15 @@
                 timeHeading.textContent = `Heure : ${data.time}`;
                 sessionDiv.appendChild(timeHeading);
 
+                // Trier les posters par "id"
+                const sortedPosters = data.posters.sort((a, b) => a.id - b.id);
+
                 // Création de la liste des posters
                 const ul = document.createElement('ul');
-                data.posters.forEach((poster, index) => {
+                sortedPosters.forEach((poster) => {
                     const li = document.createElement('li');
                     li.innerHTML = `
-                        <strong>${index + 1} :</strong> ${poster.title} <br>
+                        <strong>${poster.id} :</strong> ${poster.title} <br>
                         <em>Auteur : </em>${poster.author} en spécialité ${poster.speciality} au laboratoire ${poster.labo} <br>
                         ${poster.cv ? `<a href="${poster.cv}">[CV]</a>` : ''}
                         ${poster.abstract ? `<a href="${poster.abstract}">[abstract]</a>` : ''}
