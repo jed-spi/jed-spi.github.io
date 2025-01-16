@@ -64,43 +64,43 @@
         },
         {
             "start": "13:40",
-            "end": "14:00",
+            "end": "14:10",
             "title": "Super présentation",
             "link": null
         },
         {
-            "start": "14:00",
-            "end": "14:15",
+            "start": "14:10",
+            "end": "14:25",
             "title": "Présentation 4",
             "link": null
         },
         {
-            "start": "14:15",
-            "end": "14:30",
+            "start": "14:25",
+            "end": "14:40",
             "title": "Présentation 5",
             "link": null
         },
         {
-            "start": "14:30",
-            "end": "14:45",
+            "start": "14:40",
+            "end": "14:55",
             "title": "Présentation 6",
             "link": null
         },
         {
-            "start": "14:45",
-            "end": "16:00",
+            "start": "14:55",
+            "end": "16:10",
             "title": "Session poster 2 autour d'un café",
             "link": null
         },
         {
-            "start": "16:00",
-            "end": "17:00",
-            "title": "Table ronde",
+            "start": "16:10",
+            "end": "17:10",
+            "title": "Table ronde sur l'après thèse",
             "link": null
         },
         {
-            "start": "17:00",
-            "end": "17:15",
+            "start": "17:10",
+            "end": "17:25",
             "title": "Remise de prix (photos, posters et présentation)",
             "link": null
         }
