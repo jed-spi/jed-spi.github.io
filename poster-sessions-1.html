@@ -13,6 +13,7 @@
     <main>
         <section id="programme">
             <h2>1ère session posters</h2>
+            <h3>Heure : 10:00 - 11:15</h3>
             <div id="poster-session">
                 <!-- Contenu généré dynamiquement -->
             </div>
@@ -29,40 +30,15 @@
 
     <div id="footer"></div>
 
-    <script src="script/load_header-footer.js"></script>
+    <script type="module">
+    import { loadPosterSession } from 'https://jed-spi.github.io/script/loadPosterSession.js';
 
-    <script>
-        // Charger le fichier JSON et générer le contenu de la session poster
-        fetch("https://jed-spi.github.io/data/poster_1.json")
-            .then(response => response.json())
-            .then(data => {
-                const sessionDiv = document.getElementById('poster-session');
+    const url_data = 'https://jed-spi.github.io/data/poster.json';
+    const session = 1; // Spécifier la session souhaitée
 
-                // Ajout de l'horaire
-                const timeHeading = document.createElement('h3');
-                timeHeading.textContent = `Heure : ${data.time}`;
-                sessionDiv.appendChild(timeHeading);
-
-                // Trier les posters par "id"
-                const sortedPosters = data.posters.sort((a, b) => a.id - b.id);
-
-                // Création de la liste des posters
-                const ul = document.createElement('ul');
-                sortedPosters.forEach((poster) => {
-                    const li = document.createElement('li');
-                    li.innerHTML = `
-                        <strong>${poster.id} :</strong> ${poster.title} <br>
-                        <em>Auteur : </em>${poster.author} en spécialité ${poster.speciality} au laboratoire ${poster.labo} <br>
-                        ${poster.cv ? `<a href="${poster.cv}">[CV]</a>` : ''}
-                        ${poster.abstract ? `<a href="${poster.abstract}">[abstract]</a>` : ''}
-                        ${poster.poster ? `<a href="${poster.poster}">[poster]</a>` : ''}
-                    `;
-                    ul.appendChild(li);
-                });
-
-                sessionDiv.appendChild(ul);
-            })
-            .catch(error => console.error('Erreur lors du chargement du programme de la session posters :', error));
+    loadPosterSession(url_data, session);
     </script>
+
+    <script src="script/load_header-footer.js"></script>
 </body>
 </html>
