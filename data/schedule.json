@@ -16,14 +16,20 @@
         },
         {
             "start": "09:10",
-            "end": "09:35",
-            "title": "Valorisation de la recherche",
+            "end": "09:30",
+            "title": "Valorisation de la recherche par Yann Mondon de l'AST (Aquitaine Science Transfert)",
             "link": null
         },
         {
-            "start": "09:35",
+            "start": "09:30",
+            "end": "09:45",
+            "title": "Témoignage d'un docteur ayant monté son entreprise",
+            "link": null
+        },
+        {
+            "start": "09:45",
             "end": "10:00",
-            "title": "Médiation scientifique",
+            "title": "Médiation scientifique par Blandine de La Rochebrochard de Cap Sciences",
             "link": null
         },
         {
@@ -64,42 +70,42 @@
         },
         {
             "start": "13:40",
-            "end": "14:10",
-            "title": "Super présentation",
+            "end": "14:20",
+            "title": "Présentation 'Precision poromechanics for precision medicine' de Giuseppe Sciumè",
             "link": null
         },
         {
-            "start": "14:10",
-            "end": "14:25",
+            "start": "14:20",
+            "end": "14:35",
             "title": "Présentation 4",
             "link": null
         },
         {
-            "start": "14:25",
-            "end": "14:40",
+            "start": "14:35",
+            "end": "14:50",
             "title": "Présentation 5",
             "link": null
         },
         {
-            "start": "14:40",
-            "end": "14:55",
+            "start": "14:50",
+            "end": "15:05",
             "title": "Présentation 6",
             "link": null
         },
         {
-            "start": "14:55",
-            "end": "16:10",
+            "start": "15:05",
+            "end": "16:20",
             "title": "Session poster 2 autour d'un café",
             "link": null
         },
         {
-            "start": "16:10",
-            "end": "17:10",
+            "start": "16:20",
+            "end": "17:20",
             "title": "Table ronde sur l'après thèse",
             "link": null
         },
         {
-            "start": "17:10",
+            "start": "17:20",
             "end": "17:25",
             "title": "Remise de prix (photos, posters et présentation)",
             "link": null
