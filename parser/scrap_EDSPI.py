@@ -15,7 +15,22 @@ def download_page(url, filename):
             raise Exception("Erreur lors du téléchargement de la page")
 
 
-def parse_page(filename):
+def get_laboratory(cv_link, UMR_dico):
+    """Récupère le nom du laboratoire depuis la page CV."""
+    response = requests.get(cv_link)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, "html.parser")
+        try:
+            UMR_id = int(soup.find("a", string=re.compile("UMR")).string[-4:])
+            if UMR_id in UMR_dico:
+                return UMR_dico[UMR_id]
+            else:
+                return "Inconnu DB " + str(UMR_id)
+        except AttributeError:
+            return "Inconnu"
+
+
+def parse_page(filename, UMR_dico):
     """Parse le fichier HTML pour extraire les doctorants en 2ème année avec leur spécialité."""
     with open(filename, "r", encoding="utf-8") as file:
         soup = BeautifulSoup(file, "html.parser")
@@ -31,18 +46,18 @@ def parse_page(filename):
             if match:
                 author = element.find("a").text.strip().title()  # Extraire le nom
                 cv_link = element.find("a")["href"]  # Lien vers le CV
+                labo = get_laboratory(cv_link, UMR_dico)
                 data.append({
                     "author": author,
                     "title": "title",
                     "session": None,  # Attribué plus tard
                     "id": None,  # Attribué plus tard
-                    "labo": "Laboratoire",
+                    "labo": labo,
                     "speciality": current_speciality,  # Associer la spécialité
                     "cv": cv_link,  # Lien vers le CV
-                    "abstract": None,
-                    "poster": None  # Valeur null en JSON
+                    "abstract": None, # à la main
+                    "poster": None  # à la main
                 })
-
     return data
 
 def assign_sessions_and_ids(filename, orateur):
@@ -79,9 +94,24 @@ def main():
     rawdata = "doctorants.html"
     filename = "doctorants.json"
     orateur = ["Marcel Dupont", "Fantine DeLaCroix"]
+    UMR_dico = {
+                5026: "IMCB",
+                5031: "CRPP",
+                5107: "CELIA",
+                5218: "IMS",
+                5319: "PASSAGES",
+                5248: "CBMN",
+                5295: "I2M",
+                5298: "LP2N",
+                5536: "CRMSB",
+                5797: "LP2I",
+                5798: "LOMA",
+                5801: "LCTS",
+                5804: "LAB"
+            }
 
     download_page(url, rawdata)
-    doctorants_data = parse_page(rawdata)
+    doctorants_data = parse_page(rawdata, UMR_dico)
 
     with open("doctorants.json", "w", encoding="utf-8") as json_file:
         json.dump(doctorants_data, json_file, ensure_ascii=False, indent=4)
