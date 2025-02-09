@@ -4,32 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concours photos</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/photo.css">
     <link rel="icon" type="image/vnd.icon" href="data/favicon.ico">
 </head>
 <body>
     <div id="header"></div>
 
     <main>
-        <section class="gallery">
+        <section class="card">
             <h2>Galerie photos</h2>
             <p>Cliquer sur l'image pour la voir intégralement. <br>
                 Appuyer sur [suite] pour lire la description complète.</p>
+        </section>
+        <section class="gallery">
             <div class="gallery-grid" id="gallery"></div>
         </section>
 
-        <nav id="rubriques">
-            <h2>Navigation</h2>
+        <nav id="navigation">
             <ul>
-                <li><a href="./index.html">Programme de la journée</a></li>
-                <li><a href="./about.html">À propos de cette journée</a></li>
+                <li><a href="../index.html" class="btn">Programme de la journée</a></li>
+                <li><a href="./poster-sessions-1.html" class="btn">1ère session posters</a></li>
+                <li><a href="./poster-sessions-2.html" class="btn">2ème session posters</a></li>
+                <li><a href="./association.html" class="btn">CAP Sciences</a></li>
+                <li><a href="./about.html" class="btn">À propos</a></li>
             </ul>
         </nav>
     </main>
 
-    <div id="footer"></div>
+    <footer id="footer"></footer>
 
-    <script src="script/load_header-footer.js"></script>
+    <script src="../script/load_header-footer.js"></script>
 
     <script>
         // Charger et afficher les données JSON

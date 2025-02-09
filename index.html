@@ -4,73 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journée ED SPI 2025</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style/main.css">
     <link rel="icon" type="image/vnd.icon" href="data/favicon.ico">
 </head>
 <body>
-    <div id="header"></div>
+    <header id="header"></header>
 
     <main>
-        <!-- Section des infos pratiques -->
-        <section id="infos-pratiques">
-            <h2>Informations Pratiques</h2>
+        <section id="infos-pratiques" class="card">
+            <h2>Journée ED SPI 2025</h2>
             <p><strong>Date :</strong> <span id="date"></span></p>
             <p><strong>Lieu :</strong> <span id="lieu"></span></p>
-            <p><strong>Vote :</strong> <a href="https://linktr.ee/jed_spi">linktr.ee/jed_spi</a> </p>
+            <p><a href="https://linktr.ee/jed_spi" class="btn">Votes</a></p>
         </section>
 
-        <!-- Section du programme de la journée -->
-        <section id="programme">
+        <section id="programme" class="card">
             <h2>Programme de la Journée</h2>
             <ul id="programme-list"></ul>
         </section>
 
-        <!-- Navigation vers les rubriques supplémentaires -->
-        <nav id="rubriques">
-            <h2>Navigation</h2>
+        <nav id="navigation">
             <ul>
-                <li><a href="./poster-sessions-1.html">Programme de la 1ère session posters</a></li>
-                <li><a href="./poster-sessions-2.html">Programme de la 2ème session posters</a></li>
-                <li><a href="./photo-contest.html">Galerie photos</a></li>
-                <li><a href="./association.html">Présentation de CAP Sciences</a></li>
-                <li><a href="./about.html">A propos de cette journée</a></li>
+                <li><a href="./html/poster-sessions-1.html" class="btn">1ère session posters</a></li>
+                <li><a href="./html/poster-sessions-2.html" class="btn">2ème session posters</a></li>
+                <li><a href="./html/photo-contest.html" class="btn">Galerie photos</a></li>
+                <li><a href="./html/association.html" class="btn">CAP Sciences</a></li>
+                <li><a href="./html/about.html" class="btn">À propos</a></li>
             </ul>
         </nav>
     </main>
 
-    <div id="footer"></div>
+    <footer id="footer"></footer>
 
     <script src="script/load_header-footer.js"></script>
-
     <script>
-        // Fonction pour charger le programme
         fetch("https://jed-spi.github.io/data/schedule.json")
             .then(response => response.json())
             .then(data => {
-                // Remplir la section Infos pratiques avec la date et le lieu
                 document.getElementById('date').textContent = data.date;
                 document.getElementById('lieu').textContent = data.lieu;
-
-                // Remplir la liste du programme
                 const programmeList = document.getElementById('programme-list');
                 data.programme.forEach(item => {
                     const listItem = document.createElement('li');
                     listItem.innerHTML = `<strong>${item.start} - ${item.end} :</strong> ${item.title}`;
-
-                    // Si un lien est présent, ajouter un lien
                     if (item.link) {
-                        const space = document.createTextNode(" ");
-                        listItem.appendChild(space);
+                        listItem.appendChild(document.createTextNode(" ")); // Ajoute un espace blanc
                         const link = document.createElement('a');
                         link.href = item.link;
-                        link.textContent = "[lien]";
+                        link.textContent = "[Voir]";
                         listItem.appendChild(link);
                     }
-
                     programmeList.appendChild(listItem);
                 });
             })
-            .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
+            .catch(error => console.error('Erreur lors du chargement du programme:', error));
     </script>
 </body>
 </html>
