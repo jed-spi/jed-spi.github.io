@@ -41,7 +41,7 @@ footer {
 .card {
     max-width: 900px; /* Largeur maximale */
     width: calc(100% - 2em); /* Largeur dynamique pour laisser un espace latéral */
-    margin: 2em auto; /* Centre la carte */
+    margin: 2em auto 0 auto;
     padding: 2em;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
@@ -53,7 +53,7 @@ footer {
 }
 
 
-.card p {
+.card li {
     font-size: 1.1rem;
     color: #555;
     text-align: justify;
@@ -63,7 +63,7 @@ footer {
 .btn {
     display: inline-block;
     padding: 12px 18px;
-    margin-top: 15px;
+    margin-top: 0px;
     color: white;
     background: #007CBD;
     border-radius: 8px;
@@ -105,5 +105,5 @@ ul li {
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    margin-top : -30px;
+    margin : 15px 0 5px 0;
 }
