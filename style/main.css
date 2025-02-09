@@ -93,15 +93,17 @@ ul li {
 }
 
 /* Grille de navigation */
+#navigation ul li {
+    padding: unset; /* Supprime l'espace intérieur du <li> */
+    margin: 4px; /* Laisse un léger espace entre les boutons */
+    background: inherit;
+    border-left: none;
+}
+
 #navigation ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     margin-top : -30px;
-}
-
-#navigation ul li {
-    background: inherit;
-    border-left: none;
 }
