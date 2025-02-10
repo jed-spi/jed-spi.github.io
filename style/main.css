@@ -15,7 +15,7 @@ body {
 
 /* Header & Footer */
 footer {
-    background-color: #007CBD;
+    background-color: #009DE0;
     color: white;
     padding: 0.4em;
     text-align: center;
@@ -33,7 +33,7 @@ footer {
 }
 
 .card h2{
-    color: #007CBD;
+    color: #009DE0;
     margin-bottom: 0.5em;
     font-size: 1.8rem;
 }
@@ -64,7 +64,7 @@ footer {
     display: inline-block;
     padding: 12px 18px;
     color: white;
-    background: #007CBD;
+    background: #009DE0;
     border-radius: 8px;
     text-decoration: none;
     transition: all 0.3s;
@@ -91,7 +91,7 @@ ul li {
     background: #eaf8fd;
     margin: 10px 0;
     padding: 12px;
-    border-left: 6px solid #007CBD;
+    border-left: 6px solid #009DE0;
     border-radius: 5px;
 }
 
