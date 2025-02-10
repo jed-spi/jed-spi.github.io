@@ -56,14 +56,13 @@ footer {
 .card li {
     font-size: 1.1rem;
     color: #555;
-    text-align: justify;
+    text-align: left;
 }
 
 /* Boutons */
-.btn {
+.btn, .btn2 {
     display: inline-block;
     padding: 12px 18px;
-    margin-top: 0px;
     color: white;
     background: #007CBD;
     border-radius: 8px;
@@ -72,10 +71,14 @@ footer {
     font-weight: bold;
 }
 
-.btn:hover {
+.btn:hover, .btn2:hover {
     background: #005f99;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn2 {
+    margin-top : 15px;
 }
 
 /* Programme */
