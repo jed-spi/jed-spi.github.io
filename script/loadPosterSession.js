@@ -19,15 +19,17 @@ export function loadPosterSession(url_data, session) {
             // Création de la liste des posters
             const ul = document.createElement('ul');
             sortedPosters.forEach((poster) => {
-                const li = document.createElement('li');
-                li.innerHTML = `
-                    <strong>${poster.id} :</strong> ${poster.title} <br>
-                    <em>Auteur : </em>${poster.author} en spécialité ${poster.speciality} au laboratoire ${poster.labo} <br>
-                    ${poster.cv ? `<a href="${poster.cv}">[CV]</a>` : ''}
-                    ${poster.abstract ? `<a href="${poster.abstract}">[abstract]</a>` : ''}
-                    ${poster.poster ? `<a href="${poster.poster}">[poster]</a>` : ''}
-                `;
-                ul.appendChild(li);
+                if (poster.title == "title") {
+                    const li = document.createElement('li');
+                    li.innerHTML = `
+                        <strong>${poster.id} :</strong> ${poster.title} <br>
+                        <em>Auteur : </em>${poster.author} en ${poster.speciality} au laboratoire ${poster.labo} <br>
+                        ${poster.cv ? `<a href="${poster.cv}">[CV]</a>` : ''}
+                        ${poster.abstract ? `<a href="${poster.abstract}">[abstract]</a>` : ''}
+                        ${poster.poster ? `<a href="${poster.poster}">[poster]</a>` : ''}
+                    `;
+                    ul.appendChild(li);
+                }
             });
 
             sessionDiv.appendChild(ul);
