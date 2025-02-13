@@ -5,110 +5,160 @@
         {
             "start": "08:30",
             "end": "09:00",
-            "title": "Accueil",
-            "link": null
+            "title": "Accueil"
         },
         {
             "start": "09:00",
             "end": "09:10",
             "title": "Présentation de la journée",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "09:10",
             "end": "09:30",
             "title": "Valorisation de la recherche par Yann Mondon de l'AST (Aquitaine Science Transfert)",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "09:30",
             "end": "09:45",
             "title": "Témoignage d'un docteur ayant monté son entreprise",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "09:45",
             "end": "10:00",
             "title": "Médiation scientifique par Blandine de La Rochebrochard de Cap Sciences",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "10:00",
             "end": "11:15",
             "title": "Session poster 1 autour d'un café",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "11:15",
             "end": "11:30",
             "title": "Présentation 1",
-            "link": "https://example.com"
+            "link_1": "https://example.com",
+            "txt_1": "CV",
+            "link_2": "https://example.com",
+            "txt_2": "abstract"
         },
         {
             "start": "11:30",
             "end": "11:45",
             "title": "Présentation 2",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "11:45",
             "end": "12:00",
             "title": "Présentation 3",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "12:00",
             "end": "12:15",
             "title": "Election des nouveaux représentants des doctorants",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "12:15",
             "end": "13:40",
             "title": "Pause déjeuner",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "13:40",
             "end": "14:20",
             "title": "'Precision poromechanics for precision medicine' par Giuseppe Sciumè",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "14:20",
             "end": "14:35",
             "title": "Présentation 4",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "14:35",
             "end": "14:50",
             "title": "Présentation 5",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "14:50",
             "end": "15:05",
             "title": "Présentation 6",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "15:05",
             "end": "16:20",
             "title": "Session poster 2 autour d'un café",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "16:20",
             "end": "17:20",
             "title": "Table ronde sur l'après thèse",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         },
         {
             "start": "17:20",
             "end": "17:25",
             "title": "Remise de prix (photos, posters et présentation)",
-            "link": null
+            "link_1": null,
+            "txt_1": null,
+            "link_2": null,
+            "txt_2": null
         }
     ]
 }

@@ -57,11 +57,18 @@
                 data.programme.forEach(item => {
                     const listItem = document.createElement('li');
                     listItem.innerHTML = `<strong>${item.start} - ${item.end} :</strong> ${item.title}`;
-                    if (item.link) {
+                    if (item.link_1) {
                         listItem.appendChild(document.createTextNode(" ")); // Ajoute un espace blanc
                         const link = document.createElement('a');
-                        link.href = item.link;
-                        link.textContent = "[Voir]";
+                        link.href = item.link_1;
+                        link.textContent = item.txt_1;
+                        listItem.appendChild(link);
+                    }
+                    if (item.link_2) {
+                        listItem.appendChild(document.createTextNode(" ")); // Ajoute un espace blanc
+                        const link = document.createElement('a');
+                        link.href = item.link_2;
+                        link.textContent = item.txt_2;
                         listItem.appendChild(link);
                     }
                     programmeList.appendChild(listItem);
