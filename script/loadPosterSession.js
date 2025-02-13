@@ -19,7 +19,7 @@ export function loadPosterSession(url_data, session) {
             // Création de la liste des posters
             const ul = document.createElement('ul');
             sortedPosters.forEach((poster) => {
-                if (poster.title == "title") {
+                if (poster.title != "title") {
                     const li = document.createElement('li');
                     li.innerHTML = `
                         <strong>${poster.id} :</strong> ${poster.title} <br>
