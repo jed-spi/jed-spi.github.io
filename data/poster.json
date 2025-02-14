@@ -88,17 +88,6 @@
         "poster": null
     },
     {
-        "author": "Lucas Ribotte",
-        "title": "title",
-        "session": 2,
-        "id": 6,
-        "labo": "CELIA",
-        "speciality": "APN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=168440",
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Sirajeddine Aouani",
         "title": "Regeneration Ecosystem via Interoperable Digital Twins in the Circular Economy Environment",
         "session": 1,
@@ -118,17 +107,6 @@
         "speciality": "ASPIIC",
         "cv": "https://drive.google.com/file/d/1z0lxDIrPkTSZqSdu5iQBfPmTOyv6uRKu",
         "abstract": "https://drive.google.com/file/d/1bsRmR27HT2R6atwXq84QW_ZLn-Wn2urr",
-        "poster": null
-    },
-    {
-        "author": "Ahmed-Manaf Dahmani",
-        "title": "title",
-        "session": 1,
-        "id": 8,
-        "labo": "IMS",
-        "speciality": "ASPIIC",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=172187",
-        "abstract": null,
         "poster": null
     },
     {
@@ -165,17 +143,6 @@
         "poster": null
     },
     {
-        "author": "Fouad Farah",
-        "title": "title",
-        "session": 1,
-        "id": 12,
-        "labo": "IMS",
-        "speciality": "ASPIIC",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=178467",
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Antoine Gaignard",
         "title": "Prédiction de durée de vie restante à base de modèle appliqué aux batteries lithium-ion",
         "session": 1,
@@ -195,17 +162,6 @@
         "speciality": "ASPIIC",
         "cv": "https://drive.google.com/file/d/1XnIFaP0JCsw2An0vqHz-04P_PSGjYLGf",
         "abstract": "https://drive.google.com/file/d/1ln3zC-cbbEio4uYIQMn4RoOyzwBb0qDy",
-        "poster": null
-    },
-    {
-        "author": "Bastien Hubert",
-        "title": "title",
-        "session": 1,
-        "id": 15,
-        "labo": "IMS",
-        "speciality": "ASPIIC",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=172871",
-        "abstract": null,
         "poster": null
     },
     {
@@ -239,17 +195,6 @@
         "speciality": "ASPIIC",
         "cv": "https://drive.google.com/file/d/1gs0zqNf7CrKbzLYDfavMWXIHNqSl4fub",
         "abstract": "https://drive.google.com/file/d/1e1b60dbcajca6daf8s2PRQNfb2fE8IbT",
-        "poster": null
-    },
-    {
-        "author": "Enso Ndreko",
-        "title": "title",
-        "session": 2,
-        "id": 10,
-        "labo": "IMS",
-        "speciality": "ASPIIC",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=164751",
-        "abstract": null,
         "poster": null
     },
     {
@@ -330,17 +275,6 @@
         "poster": null
     },
     {
-        "author": "Md Sazzad Ahmed",
-        "title": "title",
-        "session": 1,
-        "id": 16,
-        "labo": "IMS",
-        "speciality": "Électronique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=164103",
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Pierre Amblard",
         "title": "Méthodologie innovante d'identification des problèmes de CEM/EMI dans les équipements et cartes électroniques aérospatiales",
         "session": 1,
@@ -375,7 +309,7 @@
     },
     {
         "author": "Anwar Benjana",
-        "title": "Non fourni (grrr): envoie un mail à pminier@ims-bordeaux.fr",
+        "title": "Développement de structures composites multifonctionnelles intelligentes par fabrication additive",
         "session": 1,
         "id": 20,
         "labo": "IMS",
@@ -393,17 +327,6 @@
         "speciality": "Électronique",
         "cv": "https://drive.google.com/file/d/1JZSW6I7X7v5gCSogaMscHIiNw_kEXN36",
         "abstract": "https://drive.google.com/file/d/12HW8iAd5YXUKEiJZ0jaPABXWCnaI5NcU",
-        "poster": null
-    },
-    {
-        "author": "Victor Bregeon",
-        "title": "title",
-        "session": 1,
-        "id": 23,
-        "labo": "IMS",
-        "speciality": "Électronique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=170846",
-        "abstract": null,
         "poster": null
     },
     {
@@ -437,17 +360,6 @@
         "speciality": "Électronique",
         "cv": "https://drive.google.com/file/d/1yLP9fOsxiAoSDGEbBqmt3UZneFktYECB",
         "abstract": "https://drive.google.com/file/d/1OlbhhEcC6GshyuBARSCvsByzC1RD5zh1",
-        "poster": null
-    },
-    {
-        "author": "Arnaud Degreze",
-        "title": "title",
-        "session": 1,
-        "id": 27,
-        "labo": "IMS",
-        "speciality": "Électronique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=165297",
-        "abstract": null,
         "poster": null
     },
     {
@@ -506,17 +418,6 @@
         "poster": null
     },
     {
-        "author": "Guillaume Melas",
-        "title": "title",
-        "session": 2,
-        "id": 24,
-        "labo": "IMS",
-        "speciality": "Électronique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=171019",
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Killian Montiege",
         "title": "Instrumentation d’un multi-organe sur puce pour la diabetologie.",
         "session": 2,
@@ -536,28 +437,6 @@
         "speciality": "Électronique",
         "cv": "https://drive.google.com/file/d/12bNZVO8WzIS91v1S5xBY0UiR1ANTOF9J",
         "abstract": "https://drive.google.com/file/d/1az0OYwmXka2JOenpPEatvDIURh8q4fsl",
-        "poster": null
-    },
-    {
-        "author": "Geoffroy Rouvre",
-        "title": "title",
-        "session": 2,
-        "id": 27,
-        "labo": "IMS",
-        "speciality": "Électronique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=167494",
-        "abstract": null,
-        "poster": null
-    },
-    {
-        "author": "Lucas Réveil",
-        "title": "title",
-        "session": 2,
-        "id": 28,
-        "labo": "IMS",
-        "speciality": "Électronique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=170877",
-        "abstract": null,
         "poster": null
     },
     {
@@ -638,17 +517,6 @@
         "poster": null
     },
     {
-        "author": "Félix Billaud",
-        "title": "title",
-        "session": 1,
-        "id": 32,
-        "labo": "CELIA",
-        "speciality": "LMN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=173684",
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Mathis Carpentier",
         "title": "Femtosecond direct laser writing of active photonic components in glasses.",
         "session": 1,
@@ -679,28 +547,6 @@
         "speciality": "LMN",
         "cv": "https://drive.google.com/file/d/18FxnvPNtN85ETL_3EbCBo3gxDAO8z6KE",
         "abstract": "https://drive.google.com/file/d/18TocDrZ-O7Bpqf2G6vTGuBVA9V-FNAxP",
-        "poster": null
-    },
-    {
-        "author": "Paul David",
-        "title": "title",
-        "session": 1,
-        "id": 36,
-        "labo": "CELIA",
-        "speciality": "LMN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=167173",
-        "abstract": null,
-        "poster": null
-    },
-    {
-        "author": "Deepak Deepak",
-        "title": "title",
-        "session": 1,
-        "id": 37,
-        "labo": "LOMA",
-        "speciality": "LMN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=177507",
-        "abstract": null,
         "poster": null
     },
     {
@@ -737,47 +583,14 @@
         "poster": null
     },
     {
-        "author": "Théo Guilberteau",
-        "title": "title",
-        "session": 1,
-        "id": 41,
-        "labo": "CELIA",
-        "speciality": "LMN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=162034",
-        "abstract": null,
-        "poster": null
-    },
-    {
-        "author": "Aparna Kadakkavattathu Parameswaran",
-        "title": "title",
-        "session": 1,
-        "id": 42,
-        "labo": "LP2N",
-        "speciality": "LMN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=176106",
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Nikhil Dev Kummali Kongath",
-        "title": "title",
+        "title": "Fountaine atomique avec des atomes de strontium pour la métrologie",
         "session": 2,
         "id": 33,
         "labo": "LP2N",
         "speciality": "LMN",
         "cv": "https://drive.google.com/file/d/1q8o9n9eV1XKa5gUQ9Xn6bYSKYFLDji_s",
         "abstract": "https://drive.google.com/file/d/1gFFqxa55LKM8xXoDudyMPl9LGSSoSj2r",
-        "poster": null
-    },
-    {
-        "author": "Juliette Lacherez",
-        "title": "title",
-        "session": 2,
-        "id": 34,
-        "labo": "LOMA",
-        "speciality": "LMN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=164637",
-        "abstract": null,
         "poster": null
     },
     {
@@ -789,17 +602,6 @@
         "speciality": "LMN",
         "cv": "https://drive.google.com/file/d/13C3GDSxTvnQqACMYw6K8Ne6zTFMNzJ5p",
         "abstract": "https://drive.google.com/file/d/1Tb6j2CpBPrO1CO0afmTz4zYySD3fvjGg",
-        "poster": null
-    },
-    {
-        "author": "Julien Le Mener",
-        "title": "title",
-        "session": 2,
-        "id": 36,
-        "labo": "LP2N",
-        "speciality": "LMN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=165182",
-        "abstract": null,
         "poster": null
     },
     {
@@ -855,17 +657,6 @@
         "speciality": "LMN",
         "cv": "https://drive.google.com/file/d/1lWOeqc9CkWSxBkZSqE04NfKDk9VKRlUB",
         "abstract": "https://drive.google.com/file/d/1WXGGgjFq5PkbblB-5uLqzLtGBGOiNxOI",
-        "poster": null
-    },
-    {
-        "author": "Duncan Sarton",
-        "title": "title",
-        "session": 2,
-        "id": 43,
-        "labo": "CELIA",
-        "speciality": "LMN",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=165511",
-        "abstract": null,
         "poster": null
     },
     {
@@ -957,17 +748,6 @@
         "poster": null
     },
     {
-        "author": "Florian Crouau",
-        "title": "title",
-        "session": 1,
-        "id": 45,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=162687",
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Joanna D'Antoni",
         "title": "Study of biomass pyrolysis for hydrogen production: Impact of pyrolysis conditions on products yield",
         "session": 1,
@@ -976,17 +756,6 @@
         "speciality": "Mécanique",
         "cv": "https://drive.google.com/file/d/1sD9Xkpl5Im5SEt-4GuT6Ttsum-U-L5bt",
         "abstract": "https://drive.google.com/file/d/199dVbxTWeZl1bI9OjlKxekJeduZjqWge",
-        "poster": null
-    },
-    {
-        "author": "Abdallah El Malki",
-        "title": "title",
-        "session": 1,
-        "id": 47,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=171705",
-        "abstract": null,
         "poster": null
     },
     {
@@ -1013,24 +782,13 @@
     },
     {
         "author": "Nicolas Gaston",
-        "title": "Non fourni (grrr): envoie un mail à pminier@ims-bordeaux.fr",
+        "title": "Évaluation, modélisation et optimisation de la performance énergétique de solutions de stockage d’énergie souterrain intersaisonnier à haute température sur boucles fermées dans un contexte de transition énergétique des bâtiments",
         "session": 1,
         "id": 50,
         "labo": "I2M",
         "speciality": "Mécanique",
         "cv": "https://drive.google.com/file/d/10m-_M5dDxeRZuy41i2B7M6ElwD7hjsYx",
         "abstract": "https://drive.google.com/file/d/1oIC7xFpYCO2vgpOO7tpqaOZzteysjO_R",
-        "poster": null
-    },
-    {
-        "author": "David Gomez Diaz",
-        "title": "title",
-        "session": 1,
-        "id": 52,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=169110",
-        "abstract": null,
         "poster": null
     },
     {
@@ -1045,19 +803,8 @@
         "poster": null
     },
     {
-        "author": "Fehim Fatih Kup",
-        "title": "title",
-        "session": 1,
-        "id": 58,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=167694",
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Matthias Largen",
-        "title": "Non fourni (grrr): envoie un mail à pminier@ims-bordeaux.fr",
+        "title": "Simulations numériques de vagues déferlant sur une bathymétrie 3D",
         "session": 2,
         "id": 50,
         "labo": "I2M",
@@ -1073,7 +820,7 @@
         "id": 51,
         "labo": "I2M",
         "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=164195",
+        "cv": "https://drive.google.com/file/d/1LChfk4pG--lz_aGWDlt_XwTtstR2_hYg",
         "abstract": "https://drive.google.com/file/d/1gMOYqAWPveMoZHawWXImru8KYPc1yt90",
         "poster": null
     },
@@ -1086,28 +833,6 @@
         "speciality": "Mécanique",
         "cv": "https://drive.google.com/file/d/1OCDUDfOPcio4ff7_B_exUdY5TT3UtwN6",
         "abstract": "https://drive.google.com/file/d/1f4TcvR-TU9HqnOjhKZhGDY3ykrGGXg5k",
-        "poster": null
-    },
-    {
-        "author": "Orel Landry Moutemi",
-        "title": "title",
-        "session": 2,
-        "id": 53,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=169673",
-        "abstract": null,
-        "poster": null
-    },
-    {
-        "author": "Chloé Nerestan",
-        "title": "title",
-        "session": 2,
-        "id": 54,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=175661",
-        "abstract": null,
         "poster": null
     },
     {
@@ -1142,18 +867,6 @@
         "cv": "https://drive.google.com/file/d/1Gptry3bcnSxMQjgy1eyLi87Pziv6Gi2i",
         "abstract": "https://drive.google.com/file/d/1fZQtnOSMjVFvI3bNNYvqPIbY7IgBkEJ9",
         "poster": null
-    },
-    {
-        "author": "Thibaud Robert",
-        "title": "title",
-        "session": 2,
-        "id": 58,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=165348",
-        "abstract": null,
-        "poster": null
-    },
     {
         "author": "Célia Sanz",
         "title": "Cartographie de propriétés thermo-physiques multi-échelles de composites à matrice céramique",
@@ -1174,17 +887,6 @@
         "speciality": "Mécanique",
         "cv": "https://drive.google.com/file/d/1z9FqvLNn1h391ENSFCTkaq5h3SYNnFJP",
         "abstract": "https://drive.google.com/file/d/104QHNTah-U472UcnT_wvreiGmV9hcnzs",
-        "poster": null
-    },
-    {
-        "author": "Nivetha Uthayakumar",
-        "title": "Non fourni (grrr): envoie un mail à pminier@ims-bordeaux.fr",
-        "session": 2,
-        "id": 61,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=176943",
-        "abstract": null,
         "poster": null
     }
 ]
