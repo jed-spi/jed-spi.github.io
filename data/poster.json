@@ -177,7 +177,7 @@
     },
     {
         "author": "Pierre Minier",
-        "title": "Un Modèle Bayésien Innovant pour la Déconvolution : Positivité, Fonction de Partition et Contrôle Spectral",
+        "title": "Un modèle bayésien pour la déconvolution sous contrainte",
         "session": 2,
         "id": 5,
         "labo": "IMS",
