@@ -35,28 +35,28 @@
         {
             "start": "11:15",
             "end": "11:30",
-            "title": "Présentation 1",
-            "link_1": "https://example.com",
+            "title": "'Theory and Design of Metamaterials for Passive Daytime Radiative Cooling' par Nigar Namazzade",
+            "link_1": "https://drive.google.com/file/d/16JaOy1e8grgGgG8cJ3Lg3zN1UPJwGJvr",
             "txt_1": "[CV]",
-            "link_2": "https://example.com",
+            "link_2": "https://drive.google.com/file/d/1OYoRKMOOyFGZm2j5_2ZnZS16TcZqcICJ",
             "txt_2": "[abstract]"
         },
         {
             "start": "11:30",
             "end": "11:45",
-            "title": "Présentation 2",
-            "link_1": "https://example.com",
+            "title": "'Physique du neutrino sur l’expérience JUNO' par Matthieu Lecocq",
+            "link_1": "https://drive.google.com/file/d/1dxTK-1d_FpsKSBByYFy25IpBTOMSnt21",
             "txt_1": "[CV]",
-            "link_2": "https://example.com",
+            "link_2": "https://drive.google.com/file/d/1lO1Xz7Q_jHfv7O0RcoQivs9uErrm9QSE",
             "txt_2": "[abstract]"
         },
         {
             "start": "11:45",
             "end": "12:00",
-            "title": "Présentation 3",
-            "link_1": "https://example.com",
+            "title": "'Du dépouillement de films d’expériences de dynamique rapide au calibrage bayésien de modèles physiques' par Lisa Garcia",
+            "link_1": "https://drive.google.com/file/d/1C1raNRPs4vb9ykB3l3hUlORWsbfHQexT",
             "txt_1": "[CV]",
-            "link_2": "https://example.com",
+            "link_2": "https://drive.google.com/file/d/1YyOvvKf_5T8ARxVhG_MCFPHhgHWxRJJB",
             "txt_2": "[abstract]"
         },
         {
@@ -79,10 +79,10 @@
         {
             "start": "14:20",
             "end": "14:35",
-            "title": "Présentation 4",
-            "link_1": "https://example.com",
+            "title": "'Measuring and Manipulating Attosecond Chiral Dynamics in Strong Fields' par Letizia Fede",
+            "link_1": "https://drive.google.com/file/d/1MdgXPtGrEG1ZERfe6xaL0DoWAymW_UL7",
             "txt_1": "[CV]",
-            "link_2": "https://example.com",
+            "link_2": "https://drive.google.com/file/d/1uQFzzjWSgwQq1U55PflDrj_oOgjbnQCv",
             "txt_2": "[abstract]"
         },
         {
@@ -97,10 +97,10 @@
         {
             "start": "14:50",
             "end": "15:05",
-            "title": "Présentation 6",
-            "link_1": "https://example.com",
+            "title": "'Déformation en cyclage de cellules lithium-ion cylindriques' par Léa Bucher",
+            "link_1": "https://drive.google.com/file/d/19Vy_B0963SekJ613g1yMjCqIX-b90rMt",
             "txt_1": "[CV]",
-            "link_2": "https://example.com",
+            "link_2": "https://drive.google.com/file/d/17evbe1feTdAXUwy4lopH3KTMPMoeuAIT",
             "txt_2": "[abstract]"
         },
         {
