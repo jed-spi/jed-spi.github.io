@@ -19,10 +19,11 @@ export function loadPosterSession(url_data, session) {
             // Création de la liste des posters
             const ul = document.createElement('ul');
             sortedPosters.forEach((poster) => {
-                if (poster.title != "title") {
+                if (poster.title !== "title") {
                     const li = document.createElement('li');
+                    const idSuffix = session === 1 ? 'a' : 'b'; // Ajouter 'a' si session = 1, sinon 'b'
                     li.innerHTML = `
-                        <strong>${poster.id} :</strong> ${poster.title} <br>
+                        <strong>${poster.id}${idSuffix} :</strong> ${poster.title} <br>
                         <em>Auteur : </em>${poster.author} en ${poster.speciality} au laboratoire ${poster.labo} <br>
                         ${poster.cv ? `<a href="${poster.cv}">[CV]</a>` : ''}
                         ${poster.abstract ? `<a href="${poster.abstract}">[abstract]</a>` : ''}
@@ -31,6 +32,7 @@ export function loadPosterSession(url_data, session) {
                     ul.appendChild(li);
                 }
             });
+
 
             sessionDiv.appendChild(ul);
         })
