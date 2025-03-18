@@ -13,8 +13,8 @@
     {
         "author": "Paul Fauverge",
         "title": "Étude des novæ comme accélérateurs de rayons cosmiques avec H.E.S.S. et Fermi",
-        "session": 1,
-        "id": 2,
+        "session": 2,
+        "id": 8,
         "labo": "LP2I",
         "speciality": "APN",
         "cv": "https://drive.google.com/file/d/1-kJMyhPc_e7cU4KTgafGUEQ_nM7VYjTV",
@@ -211,8 +211,8 @@
     {
         "author": "Josué Nkaya-Nkaya",
         "title": "Reachability under Bounded Delayed Inputs and Constrained Reinforcement Learning for Control Loop Safety and Efficiency",
-        "session": 2,
-        "id": 8,
+        "session": 1,
+        "id": 2,
         "labo": "IMS",
         "speciality": "ASPIIC",
         "cv": "https://drive.google.com/file/d/12WgxyOuKx-husnlEz_sqhriWaavOYUmr",
