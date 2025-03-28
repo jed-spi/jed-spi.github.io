@@ -20,16 +20,21 @@
         {
             "start": "09:30",
             "end": "09:45",
-            "title": "Médiation scientifique par Blandine de La Rochebrochard de Cap Sciences"
+            "title": "Témoignage de Jean-Charles Henrion, docteur en train de monter sa start-up Air-F Circuits"
         },
         {
             "start": "09:45",
-            "end": "11:00",
+            "end": "10:00",
+            "title": "Médiation scientifique par Blandine de La Rochebrochard de Cap Sciences"
+        },
+        {
+            "start": "10:15",
+            "end": "11:15",
             "title": "Session poster 1 autour d'un café ☕"
         },
         {
-            "start": "11:00",
-            "end": "11:15",
+            "start": "11:15",
+            "end": "11:30",
             "title": "'Theory and Design of Metamaterials for Passive Daytime Radiative Cooling' par Nigar Namazzade (doctorante - CRPP)",
             "link_1": "https://drive.google.com/file/d/16JaOy1e8grgGgG8cJ3Lg3zN1UPJwGJvr",
             "txt_1": "[CV]",
@@ -37,8 +42,8 @@
             "txt_2": "[abstract]"
         },
         {
-            "start": "11:15",
-            "end": "11:30",
+            "start": "11:30",
+            "end": "11:45",
             "title": "'Physique du neutrino sur l’expérience JUNO' par Matthieu Lecocq (doctorant - LP2I)",
             "link_1": "https://drive.google.com/file/d/1dxTK-1d_FpsKSBByYFy25IpBTOMSnt21",
             "txt_1": "[CV]",
@@ -46,8 +51,8 @@
             "txt_2": "[abstract]"
         },
         {
-            "start": "11:30",
-            "end": "11:45",
+            "start": "11:45",
+            "end": "12:00",
             "title": "'Du dépouillement de films d’expériences de dynamique rapide au calibrage bayésien de modèles physiques' par Lisa Garcia (doctorante - IMS)",
             "link_1": "https://drive.google.com/file/d/1C1raNRPs4vb9ykB3l3hUlORWsbfHQexT",
             "txt_1": "[CV]",
@@ -55,8 +60,8 @@
             "txt_2": "[abstract]"
         },
         {
-            "start": "11:45",
-            "end": "12:00",
+            "start": "12:00",
+            "end": "12:15",
             "title": "Election des nouveaux représentants des doctorants"
         },
         {
