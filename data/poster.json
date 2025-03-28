@@ -123,8 +123,8 @@
     {
         "author": "Anna Dib",
         "title": "3D Multi-Temporal Monitoring of Vineyards Using Mobile Robotic Systems",
-        "session": 1,
-        "id": 8,
+        "session": 2,
+        "id": 6,
         "labo": "IMS",
         "speciality": "ASPIIC",
         "cv": "https://drive.google.com/file/d/1q0jdaJ3ifZYhZgsrZZf_Qwtumx8XcVoM",
@@ -189,8 +189,8 @@
     {
         "author": "Maxime Morisset",
         "title": "Depth Map Curvatures as Pose-Invariant Features for RGB-D Object Recognition",
-        "session": 2,
-        "id": 6,
+        "session": 1,
+        "id": 8,
         "labo": "IMS",
         "speciality": "ASPIIC",
         "cv": "https://drive.google.com/file/d/1gs0zqNf7CrKbzLYDfavMWXIHNqSl4fub",
