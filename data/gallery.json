@@ -1,8 +1,14 @@
 [
     {
-        "author": "Manon Barrière",
+        "author": "🏆 Manon Barrière",
         "description": "Particule de silicium de 100 nm de diamètre piégée par le principe de pince optique grâce à un laser émettant à 1550 nm. En haut (élément gris) se trouve l'objectif de microscope qui permet de focaliser la lumière et de piéger la particule. La lumière diffusée par la particule peut être vue car elle est illuminée avec un laser vert. Ainsi, on voit un petit point vert juste devant l'objectif de microscope, qui correspond à la lumière diffusée par une nanoparticule.",
         "image_id": "1a3ssg9LVIkcMtVZ0Z4naO0-wbz6fQhjC",
+        "display": "yes"
+    },
+    {
+        "author": "🏆 Barthélémy Hugo",
+        "description": "Etude du comportement de modules photovoltaïques en situation non idéale",
+        "image_id": "1JlWDvG0e9K7y_vwRQz6xrFm5ItRC49a1",
         "display": "yes"
     },
     {
@@ -24,7 +30,7 @@
         "display": "yes"
     },
     {
-        "author": "Ludovic Brivady",
+        "author": "🏆 Ludovic Brivady",
         "description": "Avalanche miniature en laboratoire.",
         "image_id": "11huiESyc4Uh2PiudZKuUMmg1yahPD-Zw",
         "display": "yes"
@@ -48,7 +54,7 @@
         "display" : "yes"
     },
     {
-        "author": "Paul Fauverge",
+        "author": "🏆 Paul Fauverge",
         "description": "Les télescopes Tcherenkov atmosphériques H.E.S.S. en Namibie, sous un ciel nocturne exceptionnellement clair. Deux des plus petits télescopes et le grand télescope du réseau H.E.S.S., qui en compte cinq au total, sont visibles sur l'image. En arrière-plan, le centre de la Voie lactée domine, révélant des détails spectaculaires rendus plus accessibles depuis l'hémisphère Sud.",
         "image_id": "1H-_mszr2gJ-ElxySAoaSOrRSB9Sbb0Jg",
         "display": "yes"
@@ -66,7 +72,7 @@
         "display": "yes"
     },
     {
-        "author": "Manon Lafarge",
+        "author": "🏆 Manon Lafarge",
         "description": "Image au MEB d'un échantillon soudé verre/acier après un test d'arrachement.",
         "image_id": "16wEFdl3YLB1mHkXqBLbrcjZhozHlM_e0",
         "display": "yes"
@@ -90,7 +96,7 @@
         "display": "yes"
     },
     {
-        "author": "Flora Lahouze",
+        "author": "🏆 Flora Lahouze",
         "description": "Microtomographie Rayon X réalisée au Synchrotron Paris au cours de la pyrolyse d’un échantillon de bois.",
         "image_id": "1HEaxChmkSSHANA-SgIZ7GDokeg1o6njX",
         "display": "yes"
@@ -114,7 +120,7 @@
         "display": "yes"
     },
     {
-        "author": "Cédric Palka",
+        "author": "🏆 Cédric Palka",
         "description": "Transfert de masse lors d'une montée de bulle gazeuse dans un liquide dense sur-saturée",
         "image_id": "1H6RSQ4gBVvnWmZ6SUhLnFOk4IxqKC_TZ",
         "display": "yes"
