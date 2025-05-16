@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concours photos</title>
+    <link rel="stylesheet" href="../../style/2026/main.css">
+    <link rel="stylesheet" href="../../style/2026/photo.css">
+    <link rel="icon" type="image/vnd.icon" href="../../data/favicon.ico">
+</head>
+<body>
+    <div id="header"></div>
+
+    <main>
+        <section class="card">
+            <h2>Galerie photos</h2>
+            <p>Cliquer sur l'image pour la voir intégralement. <br>
+                Appuyer sur [suite] pour lire la description complète.</p>
+        </section>
+        <section class="gallery">
+            <div class="gallery-grid" id="gallery"></div>
+        </section>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="../../index_2026.html" class="btn">Programme de la journée</a></li>
+                <li><a href="./poster-sessions-1.html" class="btn">1ère session posters</a></li>
+                <li><a href="./poster-sessions-2.html" class="btn">2ème session posters</a></li>
+                <li><a href="./about.html" class="btn">À propos</a></li>
+            </ul>
+        </nav>
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="../../script/2026/load_header-footer.js"></script>
+
+    <script>
+        // Charger et afficher les données JSON
+        fetch("https://jed-spi.github.io/data/gallery.json")
+            .then(response => response.json())
+            .then(data => {
+                const gallery = document.getElementById('gallery');
+                data.forEach(item => {
+                    if (item.display == "no") return;  // ignore l'élément
+                    if (item.description === null) item.description = " ";
+
+                    const galleryItem = document.createElement('div');
+                    galleryItem.className = 'gallery-item';
+
+                    // Description abrégée avec ajustement pour finir le mot
+                    const minLength = 50;
+                    let shortDescription = item.description.slice(0, minLength);
+
+                    // Vérifier si on est coupé au milieu d'un mot et prolonger jusqu'à la fin du mot
+                    if (item.description.length > minLength) {
+                        const nextSpaceIndex = item.description.indexOf(' ', minLength);
+                        if (nextSpaceIndex !== -1) {
+                            shortDescription = item.description.slice(0, nextSpaceIndex);
+                        } else {
+                            shortDescription = item.description; // Tout le texte si pas d'espace
+                        }
+                    }
+
+                    // Déterminer si le texte abrégé est une version tronquée
+                    const isDescriptionLong = shortDescription.trim() !== item.description.trim();
+
+
+                    // Générer le contenu HTML
+                    galleryItem.innerHTML = `
+                    <a href="https://lh3.googleusercontent.com/d/${item.image_id}" target="_blank">
+                        <div class="thumbnail-container">
+                            <img src="https://lh3.googleusercontent.com/d/${item.image_id}" alt="${item.author}">
+                        </div>
+                    </a>
+
+                        <p class="image-description">
+                            ${item.author} - ${shortDescription}
+                            ${isDescriptionLong ? `<span class="description-link" style="color: blue; text-decoration: underline; cursor: pointer;">[suite]</span>` : ''}
+                        </p>
+                    `;
+
+                    // Si la description est longue, ajouter un événement pour afficher intégralement la description
+                    if (isDescriptionLong) {
+                        const link = galleryItem.querySelector('.description-link');
+                        link.addEventListener('click', () => {
+                            alert(`Description complète :\n\n${item.description}`);
+                        });
+                    }
+
+                    gallery.appendChild(galleryItem);
+                });
+            })
+            .catch(error => console.error('Erreur lors du chargement des données :', error));
+    </script>
+
+</body>
+</html>

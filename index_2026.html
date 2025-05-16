@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journée ED SPI 2025</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="icon" type="image/vnd.icon" href="data/favicon.ico">
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <section id="infos-pratiques" class="card">
+            <h2>Journée ED SPI 2025</h2>
+
+            <div class="info-container">
+                <div class="info-row">
+                    <span class="label">Date :</span>
+                    <span id="date">À définir</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">Lieu :</span>
+                    <span id="lieu">À définir</span>
+                </div>
+            </div>
+            <p><a href="https://linktr.ee/jed_spi" class="btn2">Votes</a></p>
+        </section>
+
+        <section id="programme" class="card">
+            <h2>Programme de la Journée</h2>
+            <ul id="programme-list"></ul>
+        </section>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="./html/poster-sessions-1.html" class="btn">1ère session posters</a></li>
+                <li><a href="./html/poster-sessions-2.html" class="btn">2ème session posters</a></li>
+                <li><a href="./html/photo-contest.html" class="btn">Galerie photos</a></li>
+                <li><a href="./html/about.html" class="btn">À propos</a></li>
+            </ul>
+        </nav>
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="script/load_header-footer.js"></script>
+    <script>
+        fetch("https://jed-spi.github.io/data/schedule.json")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('date').textContent = data.date;
+                document.getElementById('lieu').textContent = data.lieu;
+                const programmeList = document.getElementById('programme-list');
+                data.programme.forEach(item => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `<strong>${item.start} - ${item.end} :</strong> ${item.title}`;
+                    if (item.link_1) {
+                        listItem.appendChild(document.createTextNode(" ")); // Ajoute un espace blanc
+                        const link = document.createElement('a');
+                        link.href = item.link_1;
+                        link.textContent = item.txt_1;
+                        listItem.appendChild(link);
+                    }
+                    if (item.link_2) {
+                        listItem.appendChild(document.createTextNode(" ")); // Ajoute un espace blanc
+                        const link = document.createElement('a');
+                        link.href = item.link_2;
+                        link.textContent = item.txt_2;
+                        listItem.appendChild(link);
+                    }
+                    programmeList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Erreur lors du chargement du programme:', error));
+    </script>
+</body>
+</html>

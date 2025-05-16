@@ -1,0 +1,21 @@
+#infos-pratiques {
+    text-align: left;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacement entre les lignes */
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    width: 80px; /* Largeur fixe pour aligner les labels */
+    font-weight: bold;
+    text-align: left;
+    flex-shrink: 0; /* Empêche le label de se réduire */
+}

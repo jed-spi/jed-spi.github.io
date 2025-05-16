@@ -92,7 +92,7 @@ def assign_sessions_and_ids(filename, orateur):
 def main():
     url = "https://doctorat.u-bordeaux.fr/aide/annuaires/annuaire-doctorantes-doctorants/load/5094"
     rawdata = "doctorants.html"
-    filename = "doctorants.json"
+    filename = "../data/poster.json"
     orateur = ["Marcel Dupont", "Fantine DeLaCroix"]
     UMR_dico = {
                 5026: "IMCB",
@@ -110,11 +110,11 @@ def main():
                 5804: "LAB"
             }
 
-    download_page(url, rawdata)
-    doctorants_data = parse_page(rawdata, UMR_dico)
+    # download_page(url, rawdata)
+    # doctorants_data = parse_page(rawdata, UMR_dico)
 
-    with open("doctorants.json", "w", encoding="utf-8") as json_file:
-        json.dump(doctorants_data, json_file, ensure_ascii=False, indent=4)
+    # with open("doctorants.json", "w", encoding="utf-8") as json_file:
+    #     json.dump(doctorants_data, json_file, ensure_ascii=False, indent=4)
 
     assign_sessions_and_ids(filename, orateur)
     print("Données extraites et enregistrées dans doctorants.json")

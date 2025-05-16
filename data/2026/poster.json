@@ -1,0 +1,68 @@
+[
+    {
+        "author": "Dr. L. Dupont",
+        "title": "Exploration des Neurosciences",
+        "session": 1,
+        "id" : 1,
+        "labo": "Laboratoire",
+        "speciality": "Spé",
+        "cv": "https://example.com",
+        "abstract": "https://example.com",
+        "poster": "https://example.com"
+    },
+    {
+        "author": "C. Martin",
+        "title": "Nouvelles Méthodes en Biotechnologie",
+        "session": 1,
+        "id" : 4,
+        "labo": "Laboratoire",
+        "speciality": "Spé",
+        "cv": "https://example.com",
+        "abstract": "https://example.com",
+        "poster": "https://example.com"
+    },
+    {
+        "author": "S. Petit",
+        "title": "Intelligence Artificielle et Éthique",
+        "session": 1,
+        "id" : 2,
+        "labo": "Laboratoire",
+        "speciality": "Spé",
+        "cv": null,
+        "abstract": null,
+        "poster": null
+    },
+    {
+        "author": "A. Girard",
+        "title": "Application de la Mécanique des Fluides à l'Aérospatial",
+        "session" : 2,
+        "id": "A",
+        "labo": "Laboratoire",
+        "speciality": "Spé",
+        "cv": "https://example.com",
+        "abstract": "https://example.com",
+        "poster": "https://example.com"
+    },
+    {
+        "author": "B. Lopez",
+        "title": "Innovations en Chimie Verte",
+        "session" : 2,
+        "id": "A01",
+        "labo": "Laboratoire",
+        "speciality": "Spé",
+        "cv": "https://example.com",
+        "abstract": "https://example.com",
+        "poster": "https://example.com"
+    },
+    {
+        "author": "M. Bernard",
+        "title": "Modélisation en Astrophysique",
+        "session" : 2,
+        "id": "B",
+        "labo": "Laboratoire",
+        "speciality": "Spé",
+        "cv": "https://example.com",
+        "abstract": "https://example.com",
+        "poster": "https://example.com"
+    }
+]
