@@ -1,5 +1,6 @@
 export function loadPosterSession(url_data, session) {
     // Charger le fichier JSON et générer le contenu de la session poster
+    console.log("coucou")
     fetch(url_data)
         .then(response => response.json())
         .then(data => {
@@ -19,7 +20,7 @@ export function loadPosterSession(url_data, session) {
             // Création de la liste des posters
             const ul = document.createElement('ul');
             sortedPosters.forEach((poster) => {
-                if (poster.title !== "title") {
+                if (poster.title !== "absent") {
                     const li = document.createElement('li');
                     const idSuffix = session === 1 ? 'a' : 'b'; // Ajouter 'a' si session = 1, sinon 'b'
                     li.innerHTML = `
