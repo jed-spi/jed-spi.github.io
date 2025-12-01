@@ -5,7 +5,7 @@
         "session": 1,
         "id": 1,
         "labo": "LP2I",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=182132",
         "abstract": null,
         "poster": null
@@ -16,7 +16,7 @@
         "session": 1,
         "id": 2,
         "labo": "LP2I",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=188913",
         "abstract": null,
         "poster": null
@@ -27,7 +27,7 @@
         "session": 1,
         "id": 3,
         "labo": "CELIA",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=182330",
         "abstract": null,
         "poster": null
@@ -38,7 +38,7 @@
         "session": 1,
         "id": 4,
         "labo": "LAB",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=186171",
         "abstract": null,
         "poster": null
@@ -49,7 +49,7 @@
         "session": 1,
         "id": 5,
         "labo": "LP2I",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=184217",
         "abstract": null,
         "poster": null
@@ -60,7 +60,7 @@
         "session": 2,
         "id": 1,
         "labo": "CELIA",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=187634",
         "abstract": null,
         "poster": null
@@ -71,7 +71,7 @@
         "session": 2,
         "id": 2,
         "labo": "LP2I",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=186264",
         "abstract": null,
         "poster": null
@@ -82,7 +82,7 @@
         "session": 2,
         "id": 3,
         "labo": "LAB",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=182749",
         "abstract": null,
         "poster": null
@@ -93,7 +93,7 @@
         "session": 2,
         "id": 4,
         "labo": "LP2I",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183973",
         "abstract": null,
         "poster": null
@@ -104,7 +104,7 @@
         "session": 2,
         "id": 5,
         "labo": "CELIA",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=184320",
         "abstract": null,
         "poster": null
@@ -115,7 +115,7 @@
         "session": 2,
         "id": 6,
         "labo": "LAB",
-        "speciality": "Astrophysique, Plasmas, nucléaire",
+        "speciality": "APN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=181413",
         "abstract": null,
         "poster": null
@@ -126,7 +126,7 @@
         "session": 1,
         "id": 6,
         "labo": "INRIA",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=187659",
         "abstract": null,
         "poster": null
@@ -137,7 +137,7 @@
         "session": 1,
         "id": 7,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183767",
         "abstract": null,
         "poster": null
@@ -148,7 +148,7 @@
         "session": 1,
         "id": 8,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=194962",
         "abstract": null,
         "poster": null
@@ -159,7 +159,7 @@
         "session": 1,
         "id": 9,
         "labo": "ESTIA",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=194139",
         "abstract": null,
         "poster": null
@@ -170,7 +170,7 @@
         "session": 1,
         "id": 10,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=189072",
         "abstract": null,
         "poster": null
@@ -181,7 +181,7 @@
         "session": 1,
         "id": 11,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183520",
         "abstract": null,
         "poster": null
@@ -192,7 +192,7 @@
         "session": 2,
         "id": 7,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=185217",
         "abstract": null,
         "poster": null
@@ -203,7 +203,7 @@
         "session": 2,
         "id": 8,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=189318",
         "abstract": null,
         "poster": null
@@ -214,7 +214,7 @@
         "session": 2,
         "id": 9,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=181111",
         "abstract": null,
         "poster": null
@@ -225,7 +225,7 @@
         "session": 2,
         "id": 10,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=195758",
         "abstract": null,
         "poster": null
@@ -236,7 +236,7 @@
         "session": 2,
         "id": 11,
         "labo": "ESTIA",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=195759",
         "abstract": null,
         "poster": null
@@ -247,7 +247,7 @@
         "session": 2,
         "id": 12,
         "labo": "IMS",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183356",
         "abstract": null,
         "poster": null
@@ -258,7 +258,7 @@
         "session": 2,
         "id": 13,
         "labo": "ESTIA",
-        "speciality": "Automatique, Productique, Signal et Image, Ingénierie cognitique",
+        "speciality": "ASPIIC",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=195282",
         "abstract": null,
         "poster": null
@@ -533,7 +533,7 @@
         "session": 1,
         "id": 24,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=182938",
         "abstract": null,
         "poster": null
@@ -544,7 +544,7 @@
         "session": 1,
         "id": 25,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183897",
         "abstract": null,
         "poster": null
@@ -555,7 +555,7 @@
         "session": 1,
         "id": 26,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183544",
         "abstract": null,
         "poster": null
@@ -566,7 +566,7 @@
         "session": 1,
         "id": 27,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183286",
         "abstract": null,
         "poster": null
@@ -577,7 +577,7 @@
         "session": 1,
         "id": 28,
         "labo": "CELIA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=187638",
         "abstract": null,
         "poster": null
@@ -588,7 +588,7 @@
         "session": 1,
         "id": 29,
         "labo": "IMCB",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=186270",
         "abstract": null,
         "poster": null
@@ -599,7 +599,7 @@
         "session": 1,
         "id": 30,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=181143",
         "abstract": null,
         "poster": null
@@ -610,7 +610,7 @@
         "session": 1,
         "id": 31,
         "labo": "CRPP",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=188309",
         "abstract": null,
         "poster": null
@@ -621,7 +621,7 @@
         "session": 1,
         "id": 32,
         "labo": "IMCB",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=182496",
         "abstract": null,
         "poster": null
@@ -632,7 +632,7 @@
         "session": 1,
         "id": 33,
         "labo": "CELIA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183768",
         "abstract": null,
         "poster": null
@@ -643,7 +643,7 @@
         "session": 1,
         "id": 34,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183026",
         "abstract": null,
         "poster": null
@@ -654,7 +654,7 @@
         "session": 1,
         "id": 35,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=189605",
         "abstract": null,
         "poster": null
@@ -665,7 +665,7 @@
         "session": 1,
         "id": 36,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=182198",
         "abstract": null,
         "poster": null
@@ -676,7 +676,7 @@
         "session": 1,
         "id": 37,
         "labo": "CELIA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=184395",
         "abstract": null,
         "poster": null
@@ -687,7 +687,7 @@
         "session": 2,
         "id": 26,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=180581",
         "abstract": null,
         "poster": null
@@ -698,7 +698,7 @@
         "session": 2,
         "id": 27,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=188990",
         "abstract": null,
         "poster": null
@@ -709,7 +709,7 @@
         "session": 2,
         "id": 28,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=185189",
         "abstract": null,
         "poster": null
@@ -720,7 +720,7 @@
         "session": 2,
         "id": 29,
         "labo": "IMS",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=182145",
         "abstract": null,
         "poster": null
@@ -731,7 +731,7 @@
         "session": 2,
         "id": 30,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=180990",
         "abstract": null,
         "poster": null
@@ -742,7 +742,7 @@
         "session": 2,
         "id": 31,
         "labo": "IMS",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=194381",
         "abstract": null,
         "poster": null
@@ -753,7 +753,7 @@
         "session": 2,
         "id": 32,
         "labo": "CELIA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=183760",
         "abstract": null,
         "poster": null
@@ -764,7 +764,7 @@
         "session": 2,
         "id": 33,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=180502",
         "abstract": null,
         "poster": null
@@ -775,7 +775,7 @@
         "session": 2,
         "id": 34,
         "labo": "CELIA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=190021",
         "abstract": null,
         "poster": null
@@ -786,7 +786,7 @@
         "session": 2,
         "id": 35,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=186297",
         "abstract": null,
         "poster": null
@@ -797,7 +797,7 @@
         "session": 2,
         "id": 36,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=186671",
         "abstract": null,
         "poster": null
@@ -808,7 +808,7 @@
         "session": 2,
         "id": 37,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=192728",
         "abstract": null,
         "poster": null
@@ -819,7 +819,7 @@
         "session": 2,
         "id": 38,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=195408",
         "abstract": null,
         "poster": null
@@ -830,7 +830,7 @@
         "session": 2,
         "id": 39,
         "labo": "LOMA",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=184089",
         "abstract": null,
         "poster": null
@@ -841,7 +841,7 @@
         "session": 2,
         "id": 40,
         "labo": "LP2N",
-        "speciality": "Lasers, Matière et Nanosciences",
+        "speciality": "LMN",
         "cv": "https://adum.fr/script/cv.pl?site=CDUBX&matri=195764",
         "abstract": null,
         "poster": null
