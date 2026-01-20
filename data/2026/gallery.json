@@ -1,27 +1,61 @@
 [
     {
-        "author": "Kitty 1",
-        "description": "Channihilateur selon une IA générative",
-        "image_id": "10hzLeDHZZXqAtN4E0Zt-IZ3nMV2cDtAB"
+        "author": "Margot Ballini",
+        "description": "Alchimie lumineuse de l’infiniment petit",
+        "image_id": "1ZiBJ1rYaYLnhX1cTG4Um5N37ljAJDiVE"
     },
     {
-        "author": "Kitty 2",
-        "description": "Chactambule selon une IA générative. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "image_id": "1ElNSdEuQckEfsKR23Jo38b0cGWXCLFK6"
-    },
-    {
-        "author": "Kitty 3",
-        "description": "Chapeur pompier selon une IA générative",
+        "author": "Margot Ballini",
+        "description": "Alchimie lumineuse de l’infiniment petit",
         "image_id": "1fBULs8HS01-fuhQmir-_DwXqTXmeptbm"
     },
     {
-        "author": "Kitty 4",
-        "description": "Channiversaire selon une IA générative",
-        "image_id": "1QxGQh6L4CqMoepJiUJz5YAal73o9ys81"
+        "author": "Ludovic Brivady",
+        "description": "Granular bullet",
+        "image_id": "1ChERRo7AHwkM-OZZ-JcYOofOBJ_pYM6S"
     },
     {
-        "author": "Kitty 5",
-        "description": "Charc-en-ciel selon une IA générative",
-        "image_id": "1VM3Wb409yEpmWCgZlLY6rYQa_ZTE45s8"
+        "author": "Ludovic Brivady",
+        "description": "Granular jet entering into water",
+        "image_id": "1sD-OCTZAhKGJNRRDiZwFrGgMMHqZlGVK"
+    },
+    {
+        "author": "Ludovic Brivady",
+        "description": "Granular jet entering into water",
+        "image_id": "19MR1pYhs5Fyyuub9rZDlUAk0ZWTZNBQC"
+    },
+    {
+        "author": "Ludovic Brivady",
+        "description": "Miniature submarine landslide",
+        "image_id": "1XToE91jOKOFaYkb10i2XTjc25mDzHVaE"
+    },
+    {
+        "author": "Navya Gigimon",
+        "description": "Optical micrograph of quasi-random nanostructures produced by a single 1030 nm femtosecond laser pulse on GeTe layer beneath a SiN capping layer. The resulting features exhibit sub-micrometer periodicity and heights below 100 nm, with their morphology determined by the impinging laser fluence.",
+        "image_id": "1shaqphVoQEhL3bc5v3b17rzD5_fmPfCT"
+    },
+    {
+        "author": "Pitambar Mukherjee",
+        "description": "High-resolution imaging in the terahertz (THz) spectral range remains fundamentally constrained by the limited numerical apertures of currently existing state-of-the-art imagers, which restricts its applicability across many fields, such as imaging in complex media or non-destructive testing. To address this challenge, we introduce a proof-of-concept implementation of THz Fourier Ptychographic imaging to enhance spatial resolution without requiring extensive hardware modifications. Our method employs a motorized kinematic mirror to generate a sequence of controlled, multi-angle plane-wave illuminations, with each resulting oblique-illumination intensity image encoding a limited portion of the spatial-frequency content of the target imaging sample. These measurements are combined in the Fourier domain using an aberration-corrected iterative phase-retrieval algorithm integrated with an efficient illumination calibration scheme, which enables the reconstruction of resolution-enhanced amplitude and phase images through the synthetic expansion of the effective numerical aperture. Our work establishes a robust framework for high-resolution THz imaging and paves the way for a wide array of applications in materials characterization, spectroscopy, and non-destructive evaluation.",
+        "image_id": "1QPChHZeQ606oSUUt7GYHkcTkq3qFlKd8"
+    },
+    {
+        "author": "Devismita Panda",
+        "description": "From Clouds to Cores: A Multi-scale and Multi-wavelength View of High-Mass Star Formation in Cygnus-X. This illustration delineates the hierarchical nature of star formation within the Cygnus-X molecular cloud complex across three different spatial scales. The large-scale background (5.8μm, Spitzer Space Telescope) displays the arcs and filamentary morphology of dense gas in the parent molecular cloud. The primary inset zooms on the DR21 Northern ridge, revealing dense cores at various evolutionary stages of star formation. Finally, the high-resolution 1mm inset obtained with the NOEMA interferometer as part of the NASCENT-stars Large Program (PI: T. Csengeri) - resolves the massive dense core N53, identifying three high-mass young stellar objects and an associated low-mass cluster. Spatial scales are indicated at the base of each panel.",
+        "image_id": "1jWPrOyPSOwdBqQjfKJn1aQr6IMxVGjMs"
+    },
+    {
+        "author": "Brieuc Praud",
+        "description": "Adaptation d'un maillage de Voronoï au champ de pression d'un écoulement hypersonique (Mach 8). Les maillages sont à la base de nombreuses simulations numériques et leur adaptation permet d'améliorer la qualité des résultats obtenus tout en diminuant drastiquement les coûts de calcul.",
+        "image_id": "1a83tpg2hQmI8-28jjZn963E1ziouZUZn"
+    },
+    {
+        "author": "Clément Tiffon",
+        "description": "Cette image illustre la transition d’un écoulement transitoire vers un régime turbulent dans un film de savon. Au centre du dispositif, un peigne perturbe l’écoulement avec ses dents et génère une cascade de vortex dans son sillage.
+
+Les couleurs observées résultent des interférences de la lumière blanche réfléchie par le film. Chaque teinte correspond à une variation locale de l’épaisseur du savon, permettant de cartographier la dynamique et la structure chaotique de l’écoulement turbulent.
+
+La largeur réelle du canal photographié est de 4 cm. Ce dispositif expérimental est utilisé pour étudier les propriétés fondamentales de la turbulence dans des écoulements bidimensionnels.",
+        "image_id": "1Piol_OlkPMWBnNEQzrSif5coBS4xDmft"
     }
 ]
