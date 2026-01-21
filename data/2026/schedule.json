@@ -5,7 +5,7 @@
         {
             "start": "08:30",
             "end": "09:00",
-            "title": "Accueil (poster, emargement doctorant)"
+            "title": "Accueil (poster, émargement doctorant)"
         },
         {
             "start": "09:00",
@@ -25,7 +25,7 @@
         {
             "start": "09:50",
             "end": "10:05",
-            "title": "Espace Santé Etudiant",
+            "title": "Espace Santé Étudiant",
             "link_1": "https://www.sante-etudiants-bdx.fr",
             "txt_1": "[Site web]"
         },
@@ -62,7 +62,7 @@
         {
             "start": "13:45",
             "end": "14:00",
-            "title": "Parcours aggrégation spéciale docteur"
+            "title": "Parcours agrégation spéciale docteur"
         },
         {
             "start": "14:00",
