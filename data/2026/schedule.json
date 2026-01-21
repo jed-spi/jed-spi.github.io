@@ -1,11 +1,101 @@
 {
-    "date": "Vendredi 12 mars 2026",
+    "date": "Jeudi 12 mars 2026",
     "lieu": "Salle Agora du Haut-Carré",
     "programme": [
         {
-            "start": "--:--",
-            "end": "--:--",
-            "title": "Programme 2026 à venir"
+            "start": "08:-30",
+            "end": "09:00",
+            "title": "Accueil"
+        },
+        {
+            "start": "09:00",
+            "end": "09:10",
+            "title": "Présentation de la journée"
+        },
+        {
+            "start": "09:10",
+            "end": "09:30",
+            "title": "Médiation scientifique"
+        },
+        {
+            "start": "09:30",
+            "end": "09:50",
+            "title": "Valorisation scientifique"
+        },
+        {
+            "start": "09:50",
+            "end": "10:05",
+            "title": "Espace Santé Etudiant"
+        },
+        {
+            "start": "10:05",
+            "end": "11:20",
+            "title": "Session poster 1 autour d'un café ☕"
+        },
+        {
+            "start": "11:20",
+            "end": "11:35",
+            "title": "Présentation doctorant 1"
+        },
+        {
+            "start": "11:35",
+            "end": "11:50",
+            "title": "Présentation doctorant 2"
+        },
+        {
+            "start": "11:50",
+            "end": "12:05",
+            "title": "Présentation doctorant 3"
+        },
+        {
+            "start": "12:05",
+            "end": "12:15",
+            "title": "Election des nouveaux représentants des doctorants"
+        },
+        {
+            "start": "12:00",
+            "end": "13:40",
+            "title": "Pause déjeuner sur place 🍔🍵"
+        },
+        {
+            "start": "13:40",
+            "end": "14:00",
+            "title": "Enseigner en lycée et prépa"
+        },
+        {
+            "start": "14:00",
+            "end": "14:20",
+            "title": "Enseigner à l'université"
+        },
+        {
+            "start": "14:20",
+            "end": "14:35",
+            "title": "Présentation doctorant 4"
+        },
+        {
+            "start": "14:35",
+            "end": "14:50",
+            "title": "Présentation doctorant 5"
+        },
+        {
+            "start": "14:50",
+            "end": "15:05",
+            "title": "Présentation doctorant 6"
+        },
+        {
+            "start": "15:05",
+            "end": "16:20",
+            "title": "Session poster 2 autour d'un café ☕"
+        },
+        {
+            "start": "16:20",
+            "end": "17:20",
+            "title": "Table ronde sur l'après thèse"
+        },
+        {
+            "start": "17:20",
+            "end": "17:25",
+            "title": "Remise de prix (photos, posters et présentation)"
         }
     ]
 }
