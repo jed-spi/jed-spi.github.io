@@ -3,9 +3,9 @@
     "lieu": "Salle Agora du Haut-Carré",
     "programme": [
         {
-            "start": "08:-30",
+            "start": "08:30",
             "end": "09:00",
-            "title": "Accueil"
+            "title": "Accueil (poster, emargement doctorant)"
         },
         {
             "start": "09:00",
@@ -55,14 +55,14 @@
             "title": "Election des nouveaux représentants des doctorants"
         },
         {
-            "start": "12:00",
+            "start": "12:15",
             "end": "13:40",
             "title": "Pause déjeuner sur place 🍔🍵"
         },
         {
             "start": "13:45",
             "end": "14:00",
-            "title": "Enseigner en lycée et prépa"
+            "title": "Parcours aggrégation spéciale docteur"
         },
         {
             "start": "14:00",
