@@ -38,22 +38,28 @@
             "start": "11:20",
             "end": "11:35",
             "title": "'Laser Induced Breakdown Spectroscopy signal enhancement of analytes in liquids using microstructured substrates' par Alexandre Cherrier (doctorant - ICMCB)",
-            "cv" : "https://jed-spi.github.io/data/2026/CV_CHERRIER.pdf",
-            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_CHERRIER.pdf"
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_CHERRIER.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_CHERRIER.pdf",
+            "txt_2": "[abstract]"
         },
         {
             "start": "11:35",
             "end": "11:50",
             "title": "'Phononic-crystal waveguide biosensor system for BC biomarkers detection' par Francesca Izzo (doctorante - IMS)",
-            "cv" : "https://jed-spi.github.io/data/2026/CV_IZZO.pdf",
-            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_IZZO.pdf"
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_IZZO.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_IZZO.pdf",
+            "txt_2": "[abstract]"
         },
         {
             "start": "11:50",
             "end": "12:05",
             "title": "'Substellar population of the young massive cluster RCW 36 in Vela' par Alfonso do Brito do Vale' (doctorant - IMS)",
-            "cv" : "https://jed-spi.github.io/data/2026/CV_DO_BRITO_DO_VALE.pdf",
-            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_DO_BRITO_DO_VALE.pdf"
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_DO_BRITO_DO_VALE.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_DO_BRITO_DO_VALE.pdf",
+            "txt_2": "[abstract]"
         },
         {
             "start": "12:05",
@@ -79,22 +85,28 @@
             "start": "14:15",
             "end": "14:30",
             "title": "'Développement d’un allumeur laser compact pour foyers aéronautiques alimentés en hydrogène' par Romain Durand (doctorant - LOMA)",
-            "cv" : "https://jed-spi.github.io/data/2026/CV_DURAND_R.pdf",
-            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_DURAND_R.pdf"
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_DURAND_R.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_DURAND_R.pdf",
+            "txt_2": "[abstract]"
         },
         {
             "start": "14:30",
             "end": "14:45",
             "title": "'Système de stockage actif d'énergie thermique – Analyse numérique et expérimentale du transfert de chaleur des matériaux à changement de phase' par Judith LUKAU M’NYAMPARA (doctorante - I2M)",
-            "cv" : "https://jed-spi.github.io/data/2026/CV_LUKAU.pdf",
-            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_LUKAU.pdf"
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_LUKAU.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_LUKAU.pdf",
+            "txt_2": "[abstract]"
         },
         {
             "start": "14:45",
             "end": "15:00",
             "title": "'Focalisation sélective à travers des milieux aberrants à l’aide d’une méthode d’inversion d’image' par Ali MCHEIK (doctorant - I2M)",
-            "cv" : "https://jed-spi.github.io/data/2026/CV_MCHEIK.pdf",
-            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_MCHEIK.pdf"
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_MCHEIK.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_MCHEIK.pdf",
+            "txt_2": "[abstract]"
         },
         {
             "start": "15:00",
