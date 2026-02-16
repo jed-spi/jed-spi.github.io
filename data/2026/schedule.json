@@ -37,17 +37,23 @@
         {
             "start": "11:20",
             "end": "11:35",
-            "title": "Présentation doctorant 1"
+            "title": "'Laser Induced Breakdown Spectroscopy signal enhancement of analytes in liquids using microstructured substrates' par Alexandre Cherrier (doctorant - ICMCB)",
+            "cv" : "https://jed-spi.github.io/data/2026/CV_CHERRIER.pdf",
+            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_CHERRIER.pdf"
         },
         {
             "start": "11:35",
             "end": "11:50",
-            "title": "Présentation doctorant 2"
+            "title": "'Phononic-crystal waveguide biosensor system for BC biomarkers detection' par Francesca Izzo (doctorante - IMS)",
+            "cv" : "https://jed-spi.github.io/data/2026/CV_IZZO.pdf",
+            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_IZZO.pdf"
         },
         {
             "start": "11:50",
             "end": "12:05",
-            "title": "Présentation doctorant 3"
+            "title": "'Substellar population of the young massive cluster RCW 36 in Vela' par Alfonso do Brito do Vale' (doctorant - IMS)",
+            "cv" : "https://jed-spi.github.io/data/2026/CV_DO_BRITO_DO_VALE.pdf",
+            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_DO_BRITO_DO_VALE.pdf"
         },
         {
             "start": "12:05",
@@ -72,17 +78,23 @@
         {
             "start": "14:15",
             "end": "14:30",
-            "title": "Présentation doctorant 4"
+            "title": "'Développement d’un allumeur laser compact pour foyers aéronautiques alimentés en hydrogène' par Romain Durand (doctorant - LOMA)",
+            "cv" : "https://jed-spi.github.io/data/2026/CV_DURAND_R.pdf",
+            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_DURAND_R.pdf"
         },
         {
             "start": "14:30",
             "end": "14:45",
-            "title": "Présentation doctorant 5"
+            "title": "'Système de stockage actif d'énergie thermique – Analyse numérique et expérimentale du transfert de chaleur des matériaux à changement de phase' par Judith LUKAU M’NYAMPARA (doctorante - I2M)",
+            "cv" : "https://jed-spi.github.io/data/2026/CV_LUKAU.pdf",
+            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_LUKAU.pdf"
         },
         {
             "start": "14:45",
             "end": "15:00",
-            "title": "Présentation doctorant 6"
+            "title": "'Focalisation sélective à travers des milieux aberrants à l’aide d’une méthode d’inversion d’image' par Ali MCHEIK (doctorant - I2M)",
+            "cv" : "https://jed-spi.github.io/data/2026/CV_MCHEIK.pdf",
+            "abstract" : "https://jed-spi.github.io/data/2026/ABSTRACT_MCHEIK.pdf"
         },
         {
             "start": "15:00",
