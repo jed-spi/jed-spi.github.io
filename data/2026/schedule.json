@@ -3,9 +3,9 @@
     "lieu": "Salle Agora du Haut-Carré",
     "programme": [
         {
-            "start": "08:30",
+            "start": "08:00",
             "end": "09:00",
-            "title": "Accueil (poster, émargement doctorant)"
+            "title": "Accueil (installation des posters et émargement des doctorants)"
         },
         {
             "start": "09:00",
@@ -15,46 +15,27 @@
         {
             "start": "09:10",
             "end": "09:30",
-            "title": "Médiation scientifique"
+            "title": "Médiation scientifique : intervention de Philippe Cluzeau (Maison pour la Science en Aquitaine) et témoignage de Gaëlle Audeoud (LOMA)",
+            "link_1": "https://aquitaine.maisons-pour-la-science.org",
+            "txt_1": "[Maison pour la Science]"
         },
         {
             "start": "09:30",
             "end": "09:50",
-            "title": "Valorisation scientifique"
+            "title": "Valorisation scientifique : intervention de Matthieu Ayfre (Aquitaine Science Transfert) et Orel landry Moutemi~(I2M, dispositif MyPhD+)",
+            "link_1": "https://www.ast-innovations.com",
+            "txt_1": "[AST]",
+            "link_2" : "https://aap.u-bordeaux.fr/siaap/pub/appel/view/314",
+            "txt_2" : "[MyPhD+ 2026]"
         },
         {
             "start": "09:50",
-            "end": "10:05",
-            "title": "Espace Santé Étudiant",
-            "link_1": "https://www.sante-etudiants-bdx.fr",
-            "txt_1": "[Site web]"
-        },
-        {
-            "start": "10:05",
-            "end": "11:20",
+            "end": "11:05",
             "title": "Session poster 1 autour d'un café ☕"
         },
         {
-            "start": "11:20",
-            "end": "11:35",
-            "title": "'Laser Induced Breakdown Spectroscopy signal enhancement of analytes in liquids using microstructured substrates' par Alexandre Cherrier (doctorant - ICMCB)",
-            "link_1" : "https://jed-spi.github.io/data/2026/CV_CHERRIER.pdf",
-            "txt_1": "[CV]",
-            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_CHERRIER.pdf",
-            "txt_2": "[abstract]"
-        },
-        {
-            "start": "11:35",
-            "end": "11:50",
-            "title": "'Phononic-crystal waveguide biosensor system for BC biomarkers detection' par Francesca Izzo (doctorante - IMS)",
-            "link_1" : "https://jed-spi.github.io/data/2026/CV_IZZO.pdf",
-            "txt_1": "[CV]",
-            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_IZZO.pdf",
-            "txt_2": "[abstract]"
-        },
-        {
-            "start": "11:50",
-            "end": "12:05",
+            "start": "11:05",
+            "end": "11:20",
             "title": "'Substellar population of the young massive cluster RCW 36 in Vela' par Alfonso do Brito do Vale' (doctorant - IMS)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_DO_BRITO_DO_VALE.pdf",
             "txt_1": "[CV]",
@@ -62,37 +43,8 @@
             "txt_2": "[abstract]"
         },
         {
-            "start": "12:05",
-            "end": "12:15",
-            "title": "Election des nouveaux représentants des doctorants"
-        },
-        {
-            "start": "12:15",
-            "end": "13:40",
-            "title": "Pause déjeuner sur place 🍔🍵"
-        },
-        {
-            "start": "13:45",
-            "end": "14:00",
-            "title": "Parcours agrégation spéciale docteur"
-        },
-        {
-            "start": "14:00",
-            "end": "14:15",
-            "title": "Enseigner à l'université"
-        },
-        {
-            "start": "14:15",
-            "end": "14:30",
-            "title": "'Développement d’un allumeur laser compact pour foyers aéronautiques alimentés en hydrogène' par Romain Durand (doctorant - LOMA)",
-            "link_1" : "https://jed-spi.github.io/data/2026/CV_DURAND_R.pdf",
-            "txt_1": "[CV]",
-            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_DURAND_R.pdf",
-            "txt_2": "[abstract]"
-        },
-        {
-            "start": "14:30",
-            "end": "14:45",
+            "start": "11:20",
+            "end": "11:35",
             "title": "'Système de stockage actif d'énergie thermique – Analyse numérique et expérimentale du transfert de chaleur des matériaux à changement de phase' par Judith LUKAU M’NYAMPARA (doctorante - I2M)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_LUKAU.pdf",
             "txt_1": "[CV]",
@@ -100,12 +52,66 @@
             "txt_2": "[abstract]"
         },
         {
-            "start": "14:45",
-            "end": "15:00",
+            "start": "11:35",
+            "end": "11:50",
+            "title": "'Laser Induced Breakdown Spectroscopy signal enhancement of analytes in liquids using microstructured substrates' par Alexandre Cherrier (doctorant - ICMCB)",
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_CHERRIER.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_CHERRIER.pdf",
+            "txt_2": "[abstract]"
+        },
+        {
+            "start": "11:50",
+            "end": "12:05",
+            "title": "'Développement d’un allumeur laser compact pour foyers aéronautiques alimentés en hydrogène' par Romain Durand (doctorant - LOMA)",
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_DURAND_R.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_DURAND_R.pdf",
+            "txt_2": "[abstract]"
+        },
+        {
+            "start": "12:05",
+            "end": "12:15",
+            "title": "Election des nouveaux représentants des doctorants de l'ED SPI"
+        },
+        {
+            "start": "12:15",
+            "end": "13:45",
+            "title": "Pause déjeuner sur place 🍔🍵"
+        },
+        {
+            "start": "13:45",
+            "end": "14:00",
+            "title": "Espace Santé Étudiant : intervention de Florence Touchard (Infirmière)",
+            "link_1": "https://www.sante-etudiants-bdx.fr",
+            "txt_1": "[ESE]"
+        },
+        {
+            "start": "14:00",
+            "end": "14:15",
+            "title": "Parcours agrégation spécial docteur : intervention de Franck Gobet (Responsable du parcours)"
+        },
+        {
+            "start": "14:15",
+            "end": "14:30",
+            "title": "Enseigner à l'université : Emmanuel Abraham (professeur UB) et Christine Grauby (professeur UB)"
+        },
+        {
+            "start": "14:30",
+            "end": "14:45",
             "title": "'Focalisation sélective à travers des milieux aberrants à l’aide d’une méthode d’inversion d’image' par Ali MCHEIK (doctorant - I2M)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_MCHEIK.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_MCHEIK.pdf",
+            "txt_2": "[abstract]"
+        },
+        {
+            "start": "14:45",
+            "end": "15:00",
+            "title": "'Phononic-crystal waveguide biosensor system for BC biomarkers detection' par Francesca Izzo (doctorante - IMS)",
+            "link_1" : "https://jed-spi.github.io/data/2026/CV_IZZO.pdf",
+            "txt_1": "[CV]",
+            "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_IZZO.pdf",
             "txt_2": "[abstract]"
         },
         {
@@ -116,7 +122,7 @@
         {
             "start": "16:15",
             "end": "17:25",
-            "title": "Table ronde sur l'après thèse"
+            "title": "Table ronde sur l'après thèse : Alexis LeBranchu (Industrie Valemo), Théo Guillaume (Ingénieur R\&D), Cédric Ayela (CNRS) et Olivia Zurita (Post-doc)"
         },
         {
             "start": "17:25",
