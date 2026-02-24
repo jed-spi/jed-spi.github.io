@@ -22,7 +22,7 @@
         {
             "start": "09:30",
             "end": "09:50",
-            "title": "Valorisation scientifique : intervention de Matthieu Ayfre (Aquitaine Science Transfert) et Orel landry Moutemi~(I2M, dispositif MyPhD+)",
+            "title": "Valorisation scientifique : intervention de Matthieu Ayfre (Aquitaine Science Transfert) et Orel landry Moutemi (I2M, dispositif MyPhD+)",
             "link_1": "https://www.ast-innovations.com",
             "txt_1": "[AST]",
             "link_2" : "https://aap.u-bordeaux.fr/siaap/pub/appel/view/314",
@@ -36,7 +36,7 @@
         {
             "start": "11:05",
             "end": "11:20",
-            "title": "'Substellar population of the young massive cluster RCW 36 in Vela' par Alfonso do Brito do Vale' (doctorant - IMS)",
+            "title": "'Substellar population of the young massive cluster RCW 36 in Vela' par Alfonso do Brito do Vale' (IMS)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_DO_BRITO_DO_VALE.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_DO_BRITO_DO_VALE.pdf",
@@ -45,7 +45,7 @@
         {
             "start": "11:20",
             "end": "11:35",
-            "title": "'Système de stockage actif d'énergie thermique – Analyse numérique et expérimentale du transfert de chaleur des matériaux à changement de phase' par Judith LUKAU M’NYAMPARA (doctorante - I2M)",
+            "title": "'Système de stockage actif d'énergie thermique – Analyse numérique et expérimentale du transfert de chaleur des matériaux à changement de phase' par Judith LUKAU M'Nyampara (I2M)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_LUKAU.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_LUKAU.pdf",
@@ -54,7 +54,7 @@
         {
             "start": "11:35",
             "end": "11:50",
-            "title": "'Laser Induced Breakdown Spectroscopy signal enhancement of analytes in liquids using microstructured substrates' par Alexandre Cherrier (doctorant - ICMCB)",
+            "title": "'Laser Induced Breakdown Spectroscopy signal enhancement of analytes in liquids using microstructured substrates' par Alexandre Cherrier (ICMCB)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_CHERRIER.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_CHERRIER.pdf",
@@ -63,7 +63,7 @@
         {
             "start": "11:50",
             "end": "12:05",
-            "title": "'Développement d’un allumeur laser compact pour foyers aéronautiques alimentés en hydrogène' par Romain Durand (doctorant - LOMA)",
+            "title": "'Développement d’un allumeur laser compact pour foyers aéronautiques alimentés en hydrogène' par Romain Durand (LOMA)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_DURAND_R.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_DURAND_R.pdf",
@@ -99,7 +99,7 @@
         {
             "start": "14:30",
             "end": "14:45",
-            "title": "'Focalisation sélective à travers des milieux aberrants à l’aide d’une méthode d’inversion d’image' par Ali MCHEIK (doctorant - I2M)",
+            "title": "'Focalisation sélective à travers des milieux aberrants à l’aide d’une méthode d’inversion d’image' par Ali Mcheik (I2M)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_MCHEIK.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_MCHEIK.pdf",
@@ -108,7 +108,7 @@
         {
             "start": "14:45",
             "end": "15:00",
-            "title": "'Phononic-crystal waveguide biosensor system for BC biomarkers detection' par Francesca Izzo (doctorante - IMS)",
+            "title": "'Phononic-crystal waveguide biosensor system for BC biomarkers detection' par Francesca Izzo (IMS)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_IZZO.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_IZZO.pdf",
