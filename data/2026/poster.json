@@ -671,17 +671,6 @@
         "poster": null
     },
     {
-        "author": "Baptiste Joussot-Dubien",
-        "title": "Analyse et modélisation de composites 3D à rigidité variable produits par fabrication additive en prenant en compte les spécificités du procédé",
-        "session": 1,
-        "id": 34,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": "https://jed-spi.github.io/data/2026/CV_BAPTISTE_JOUSSOT-DUBIEN.pdf",
-        "abstract": "https://jed-spi.github.io/data/2026/ABSTRACT_BAPTISTE_JOUSSOT-DUBIEN.pdf",
-        "poster": null
-    },
-    {
         "author": "Matthieu Lacour",
         "title": "Multiphase Modeling of Vascularized Tissues: An Integrated Experimental and Numerical Approach",
         "session": 2,
@@ -726,21 +715,10 @@
         "poster": null
     },
     {
-        "author": "Pierre Roger",
-        "title": "title",
-        "session": 2,
-        "id": 33,
-        "labo": "I2M",
-        "speciality": "Mécanique",
-        "cv": null,
-        "abstract": null,
-        "poster": null
-    },
-    {
         "author": "Tamara Rumen",
         "title": "Modélisation et conception de structures stratifiées en UHTCMC via une stratégie d’optimisation multi-échelles basée sur invariants tensoriels",
         "session": 2,
-        "id": 34,
+        "id": 33,
         "labo": "I2M",
         "speciality": "Mécanique",
         "cv": "https://jed-spi.github.io/data/2026/CV_TAMARA_RUMEN.pdf",
@@ -751,7 +729,7 @@
         "author": "Walid Taraft",
         "title": "Simulation numérique couplée des transferts thermo-aérauliques dans la grotte de Lascaux",
         "session": 2,
-        "id": 35,
+        "id": 34,
         "labo": "I2M",
         "speciality": "Mécanique",
         "cv": "https://jed-spi.github.io/data/2026/CV_WALID_TARAFT.pdf",
