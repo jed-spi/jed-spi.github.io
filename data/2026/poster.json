@@ -746,5 +746,16 @@
         "cv": "https://jed-spi.github.io/data/2026/CV_WALID_TARAFT.pdf",
         "abstract": "https://jed-spi.github.io/data/2026/ABSTRACT_WALID_TARAFT.pdf",
         "poster": null
+    },
+    {
+        "author": "Pierre Roger",
+        "title": "Détection des défauts basée sur l'analyse comparative appliquée à un parc de pompes à chaleur géothermiques résidentielles",
+        "session": 2,
+        "id": 35,
+        "labo": "I2M",
+        "speciality": "Mécanique",
+        "cv": null,
+        "abstract": null,
+        "poster": null
     }
 ]
