@@ -757,5 +757,16 @@
         "cv": null,
         "abstract": null,
         "poster": null
+    },
+    {
+        "author": "Francesca Izzo",
+        "title": "Photonic-crystal waveguide biosensor system for BC biomarkers detection",
+        "session": 1,
+        "id": 36,
+        "labo": "IMS",
+        "speciality": "ASPIIC",
+        "cv": "https://jed-spi.github.io/data/2026/CV_IZZO.pdf",
+        "abstract": "https://jed-spi.github.io/data/2026/ABSTRACT_IZZO.pdf",
+        "poster": null
     }
 ]
