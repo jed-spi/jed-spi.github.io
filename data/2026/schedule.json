@@ -26,7 +26,9 @@
             "link_1": "https://www.ast-innovations.com",
             "txt_1": "[AST]",
             "link_2" : "https://aap.u-bordeaux.fr/siaap/pub/appel/view/314",
-            "txt_2" : "[MyPhD+ 2026]"
+            "txt_2" : "[MyPhD+ 2026]",
+            "link_3" : "https://drive.google.com/file/d/14mwj6B2pbHBcOUUwtXHhXrXrqrOP-08F",
+            "txt_3" : "[slides]"
         },
         {
             "start": "09:50",
@@ -40,16 +42,20 @@
             "link_1" : "https://jed-spi.github.io/data/2026/CV_DO_BRITO_DO_VALE.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_DO_BRITO_DO_VALE.pdf",
-            "txt_2": "[abstract]"
+            "txt_2": "[abstract]",
+            "link_3" : "https://drive.google.com/file/d/11S-c8mIlwA8RgMGwmM2LZ3muAVWNPxjw",
+            "txt_3" : "[slides]"
         },
         {
             "start": "11:20",
             "end": "11:35",
-            "title": "'Système de stockage actif d'énergie thermique – Analyse numérique et expérimentale du transfert de chaleur des matériaux à changement de phase' par Judith Lukau M'Nyampara (I2M)",
+            "title" : "'Système de stockage actif d'énergie thermique – Analyse numérique et expérimentale du transfert de chaleur des matériaux à changement de phase' par Judith Lukau M'Nyampara (I2M)",
             "link_1" : "https://jed-spi.github.io/data/2026/CV_LUKAU.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_LUKAU.pdf",
-            "txt_2": "[abstract]"
+            "txt_2": "[abstract]",
+            "link_3" : "https://drive.google.com/file/d/1tOBa77JfLc9kHR13K_mNyRswgqy0KBgS",
+            "txt_3" : "[slides]"
         },
         {
             "start": "11:35",
@@ -58,7 +64,9 @@
             "link_1" : "https://jed-spi.github.io/data/2026/CV_CHERRIER.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_CHERRIER.pdf",
-            "txt_2": "[abstract]"
+            "txt_2": "[abstract]",
+            "link_3" : "https://drive.google.com/file/d/1WsUYD9kQYH8iQ9l2RS20yrr-jrMbVUXN",
+            "txt_3" : "[slides]"
         },
         {
             "start": "11:50",
@@ -67,7 +75,9 @@
             "link_1" : "https://jed-spi.github.io/data/2026/CV_DURAND_R.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_DURAND_R.pdf",
-            "txt_2": "[abstract]"
+            "txt_2": "[abstract]",
+            "link_3" : "https://drive.google.com/file/d/1nPJvoDORlKLqQE1CebUGFwOBIFzM_5YY",
+            "txt_3" : "[slides]"
         },
         {
             "start": "12:05",
@@ -84,17 +94,23 @@
             "end": "14:00",
             "title": "Espace Santé Étudiant : intervention de Florence Touchard (Infirmière)",
             "link_1": "https://www.sante-etudiants-bdx.fr",
-            "txt_1": "[ESE]"
+            "txt_1": "[ESE]",
+            "link_2": "https://drive.google.com/file/d/10m5-zq7Zm_EdWQN-pX7nvxadg75V-ckz",
+            "txt_2": "[slides]"
         },
         {
             "start": "14:00",
             "end": "14:15",
-            "title": "Parcours agrégation spécial docteur : intervention de Franck Gobet (Responsable du parcours)"
+            "title": "Parcours agrégation spécial docteur : intervention de Franck Gobet (Responsable du parcours)",
+            "link_1": "https://drive.google.com/file/d/18adyln2B3_vhHbRwo7U9ByJ5loZ9Pat2",
+            "txt_1": "[slides]"
         },
         {
             "start": "14:15",
             "end": "14:30",
-            "title": "Enseigner à l'université : Emmanuel Abraham (professeur UB) et Christine Grauby (professeur UB)"
+            "title": "Enseigner à l'université : Emmanuel Abraham (professeur UB) et Christine Grauby (professeur UB)",
+            "link_1": "https://drive.google.com/file/d/1Atz3lPqVou1fNE9xzpKR3udSyzLrKOzu",
+            "txt_1": "[slides]"
         },
         {
             "start": "14:30",
@@ -103,7 +119,9 @@
             "link_1" : "https://jed-spi.github.io/data/2026/CV_MCHEIK.pdf",
             "txt_1": "[CV]",
             "link_2" : "https://jed-spi.github.io/data/2026/ABSTRACT_MCHEIK.pdf",
-            "txt_2": "[abstract]"
+            "txt_2": "[abstract]",
+            "link_3": "https://drive.google.com/file/d/1IuC_sEBc9t-YVqxNaJsm9lpRzwAWOUBq",
+            "txt_3": "[slides]"
         },
         {
             "start": "14:45",
@@ -122,7 +140,11 @@
         {
             "start": "16:15",
             "end": "17:25",
-            "title": "Table ronde sur l'après thèse : Alexis LeBranchu (Industrie Valemo), Théo Guillaume (Ingénieur R&D) et Cédric Ayela (CNRS)"
+            "title": "Table ronde sur l'après thèse : Alexis LeBranchu (Industrie Valemo), Théo Guillaume (Ingénieur R&D) et Cédric Ayela (CNRS)",
+            "link_1": "https://drive.google.com/file/d/1tXb41p-v_gqitkY736rdIh8brSSEo0BP",
+            "txt_1": "[débouchés]",
+            "link_2": "https://drive.google.com/file/d/15Bncb3R6HdSLQsh_wFGFS-IMjyuv3_Gp",
+            "txt_2": "[insertion ED SPI]"
         },
         {
             "start": "17:25",
